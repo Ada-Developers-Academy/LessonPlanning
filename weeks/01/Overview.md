@@ -38,18 +38,11 @@ TODO: SCRIPT LESSON
 - blocks: `while` & `each`
 
 
-```
-  
-    (2..26).to_a.each do |n|
-      File.open("#{n}.md", 'w') do |file|
-        file << "DO: Write Week #{n}"
-      end
-    end
-  
-```
-
 - user input
 - Hashes
+
+Now that we know a little more about
+### [Ruby 101 Lesson](/lessons/ruby-101.md)
 
 
 ### Structure
@@ -63,9 +56,7 @@ Understanding the core concepts of programming languages can be the most challen
 - Inheritance
 - State
 
-[Ruby 101 Lesson](/lessons/ruby-101.md)
-
-TODO: Stucture Lesson
+### [Ruby Structure Lesson](/lessons/ruby-structure.md)
 
 ### Mastery Quiz
 
