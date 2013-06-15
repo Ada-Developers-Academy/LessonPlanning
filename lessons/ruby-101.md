@@ -4,7 +4,7 @@
 ## Overview
 
 ## Installation
-Ruby 2.0 (Ruby/RVM installation)[/lessons/ruby-rvm-installation.md]
+Ruby 2.0 [Ruby/RVM installation](/lessons/ruby-rvm-installation.md)
 ## Lesson
 
 ### Object
