@@ -51,10 +51,9 @@ TODO: SCRIPT LESSON
 - user input
 - Hashes
 
+
 ### Structure
 Understanding the core concepts of programming languages can be the most challenging part. We will spend a good deal of time learning the fundamental ideas and structure that surround the most basic ruby usage. Programming languages can be quite difficult to grasp, not because they over overly complex, but because they are abstract ideas. If we can understand how ruby works we can certainly be more effective in writing ruby code. We will be focusing on:
-
-TODO: Stucture Lesson
 
 - Object Orientation: What is an object?
 - Classes
@@ -63,6 +62,10 @@ TODO: Stucture Lesson
 - Instance Methods
 - Inheritance
 - State
+
+[Ruby 101 Lesson](/lessons/ruby-101.md)
+
+TODO: Stucture Lesson
 
 ### Mastery Quiz
 
