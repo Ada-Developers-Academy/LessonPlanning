@@ -184,4 +184,4 @@ We can see we add inheritance by `< ClassToInheriteFrom` after the class definit
     
 
 ### SOLID
-
+TODO: Add Solid
