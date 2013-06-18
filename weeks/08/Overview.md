@@ -1,0 +1,1 @@
+TODO: agile development, working with a product owner, performance, code coverage and quality
