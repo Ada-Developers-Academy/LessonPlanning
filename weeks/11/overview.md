@@ -28,8 +28,8 @@ A principle in software architecture where a single instance of the software ser
 
 
 ###Resources:
-[Multi-Tenancy in Rails Book by Ryan Bigg](https://leanpub.com/multi-tenancy-rails)
-[Multitenancy with Rails Slidedeck by Paul Gallagher](http://www.slideshare.net/tardate/multitenancy-with-rails)
-[Railscasts 388: Multitenancy with Scopes](http://railscasts.com/episodes/388-multitenancy-with-scopes)
-[Multitenancy in Rails blogpost by David Lesces](http://davidlesches.com/blog/multitenancy-in-rails)
-[Rails Guides: Security](http://guides.rubyonrails.org/security.html)
+[Multi-Tenancy in Rails Book by Ryan Bigg](https://leanpub.com/multi-tenancy-rails)<br>
+[Multitenancy with Rails Slidedeck by Paul Gallagher](http://www.slideshare.net/tardate/multitenancy-with-rails)<br>
+[Railscasts 388: Multitenancy with Scopes](http://railscasts.com/episodes/388-multitenancy-with-scopes)<br>
+[Multitenancy in Rails blogpost by Dav<br>id Lesces](http://davidlesches.com/blog/multitenancy-in-rails)<br>
+[Rails Guides: Security](http://guides.rubyonrails.org/security.html)<br>
