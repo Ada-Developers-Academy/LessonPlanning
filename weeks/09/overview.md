@@ -29,6 +29,6 @@
 
 
 ###Resources:
-[Code School: Ruby 2](http://www.codeschool.com/courses/ruby-bits-part-2)
-[Ruby Docs](http://ruby-doc.org/)
-[Ruby Language Resources](http://www.ruby-lang.org/en/documentation/)
+[Code School: Ruby 2](http://www.codeschool.com/courses/ruby-bits-part-2)<br>
+[Ruby Docs](http://ruby-doc.org/)<br>
+[Ruby Language Resources](http://www.ruby-lang.org/en/documentation/)<br>
