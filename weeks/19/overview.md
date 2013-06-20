@@ -1,8 +1,8 @@
-# Weeks 18 - 19
+#Weeks 18 - 19
 
-# Refactoring Legacy Code
+#Refactoring Legacy Code
 
-### Resources
+###Resources
 
 http://www.slideshare.net/rabble/testing-legacy-rails-apps
 http://www.slideshare.net/martintsch/refactoring-code-smell
