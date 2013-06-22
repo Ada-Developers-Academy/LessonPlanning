@@ -116,6 +116,7 @@ We'll use [Github Pages](http://pages.github.com/) to publish your web pages. Cr
 - [Learn HTML and CSS in 30 Days (via TutsPlus)](http://learncss.tutsplus.com/)
 - [List of Frameworks](http://line25.com/articles/which-responsive-frameworks-are-designers-using)
 - [960 Grid](http://960.gs/)
+- [CSS Zen Garden](http://www.csszengarden.com/)
 - [Twitter Bootstrap](http://twitter.github.io/bootstrap/index.html)
 - [CSS Reset](http://meyerweb.com/eric/tools/css/reset/)
 - [CSS Normalize](http://necolas.github.io/normalize.css/)
