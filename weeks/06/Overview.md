@@ -30,7 +30,8 @@ HTML stands for HyperText Markup Language. It is comprised of tags (also called 
 - Lists and iterators in a Rails view
 
 ### Forms
-- Necessary HTML views
+- Necessary HTML 
+- Parameters
 
 ### Admin
 - Folders (css, img folders)
