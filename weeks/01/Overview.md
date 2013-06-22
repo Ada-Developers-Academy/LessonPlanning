@@ -173,6 +173,7 @@ The data above the `<html>` are the response headers. As you can see there are s
 - Content-Type
 - Content-Length
 
+HTTP requests return a status code in the headers. These codes are standardized for HTTP, so each code has a specific meaning that is the same across any web application. A plain successful response will have the code of `200`, while a page not found is a `404` and an application error is a `500`. For a full list of HTTP codes see [HTTP Status Codes](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes/)
 The HTML is the "body" of the response. This is what would be rendered in the browser.
 
 TODO: HTTP lesson (curl)
