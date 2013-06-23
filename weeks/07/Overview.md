@@ -98,9 +98,18 @@ Many Gems exist to utilize specific public and private API's, often called "wrap
 
 HTML forms can seem very simple at times, a single text field that submits to a resource is quite easy to grasp, but some of the nuances of forms can be quite complicated. We will look at advanced forms and specifically how they relate to Rails `ActiveResource`. We will be talking about:
 
-1. Multiple fields with the same identifier.
-2. File uploads
-3. Nested Resources
+* Input Types
+* - text
+* - textarea
+* - submit
+* - file
+* - checkbox
+* - radio
+* - label
+* - select
+* Multiple fields with the same identifier.
+* File uploads
+* Nested Resources
 
 ### Forms role with Rails
 
@@ -112,7 +121,7 @@ when submitted to the rails application will result in
 
 `{params: {email: <input value>}}`
 
-The form to update a typical rails resource would usually look something like:
+We can nest HTML field attributes in `[]` to create `Hash` objects. The form to update a typical rails resource would usually look something like:
 
     <input name="user[email]">
     <input name="user[username]">
@@ -149,6 +158,82 @@ Although I feel this concept is important to grasp to fully understand rails rel
     
 This `erb` will generate the equivilant HTML, hidden field and all.
 
-### File Uploads
-
 ### Nested Resources
+
+Rails resources can be nested, for instance when a `Cart` has many `Item` objects. Basic associations are quite easy to deal with, but what about when we want to update a set of resources that belong to a single resource. Like changing the quantity of each `Item` that belongs to a `Cart`. In our parent class we can specify that we want the ability to do this:
+
+    class Cart < ActiveRecord::Base
+      has_many :items
+      accepts_nested_attributes_for :items
+    end
+
+Suppose we have 2 existing resources
+
+      Cart
+          - id: 1
+      Item
+          - cart_id: 1
+          - id: 2
+          - quantity: 1
+        
+          
+This give the ability to do something like:
+
+    Cart.find(1).update_attributes(items_attributes: {"0" => {id: 2, quantity: 2}, "1" => {quantity: 3}})
+    
+To update the `Cart` children. The `items_attributes` value is a collection of `Item` attributes. `{id: 1, quantity: 2}` will update the `Item` with an id of `2`, to have a `quantity` of `2`. If the `items_attributes` does not contain an `id` key (just `{quantity: 3}`), a new `Item` record will be created with an `quantity` of `3` and a `cart_id` of `1`.
+
+So how do we accomplish this with HTML? It's quite easy. To create the same Hash for `params[:cart]` our HTML would be:
+
+    <form action="/cart" method="POST">
+      <input type="hidden" name="cart[items_attributes][0][id]" value=2>
+      <input type="text"   name="cart[items_attributes][0][quantity]">
+
+      <input type="text"   name="cart[items_attributes][1][quantity]">
+      <input type="submit">
+    </form>
+  
+Using Rails helpers we would generate this HTML using the `fields_for` helper
+
+    <%= form_for @cart do |f| %>
+      <%= f.fields_for :items do |ff| %>
+        <%= ff.text_field :quantity %>
+      <% end %>
+      
+      <%= f.fields_for :items, Item.new do |ff| %>
+        <%= ff.text_field :quantity %>
+      <% end %>
+      
+    <% end %>
+
+Notice that the second `fields_for` block has two arguments, `:items` and `Item.new`, `:items` tells the form what the nested fields resource is called. If a second argument is not added Rails will assume the the fields are for the objects associated with that name, `Item`. If there is a second attribute, rails will assume that you are creating fields for the object.
+
+### Serialized Data
+Rails can serialize more complex data types in the database in in text column. For instance if we want to store an `Array` of tags to blog `Post` objects, we can add a tags column to our table in the database, and serialize an array to as `YAML` text blob.
+
+    class Post < ActiveRecord::Base
+      serialize :tags, Array
+    end
+    
+Then we can do things like
+
+    post = Post.last
+    post.tags = ["running", "hiking", "footwear"]
+    post.save
+    post.tags # => ["running", "hiking", "footwear"]
+    
+The text value actually stored in the database would actually be
+
+    "---\n- running\n- hiking\n- footwear\n"
+
+But the magic `serialize :tags, Array` tells the model to convert the object assigned to the `tags` attribute to `YAML`, and when the attribute is accessed next the `YAML` text is converted to a Ruby `Array`. This assumes that the stored `YAML` is in a valid format to be converted to Ruby, if it is not an exception will be raised.
+
+So how do we make an array in HTML forms? So far we've only seen the equivalent of hashes. We use an empty `[]`
+
+    <input type='text' name="post[tags][]">
+    <input type='text' name="post[tags][]">
+    <input type='text' name="post[tags][]">
+    
+This would create 3 text fields for tags, the submitted value would be translated to
+    
+    {post: {tags: [<tag>, <tag>, <tag>]}}
