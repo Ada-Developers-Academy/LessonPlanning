@@ -1,5 +1,3 @@
-TODO: consuming APIs, advanced forms
-
 # Week Seven
 
 ## Consuming Web API's
@@ -108,8 +106,8 @@ HTML forms can seem very simple at times, a single text field that submits to a 
 * - label
 * - select
 * Multiple fields with the same identifier.
-* File uploads
 * Nested Resources
+* Serialized Data
 
 ### Forms role with Rails
 
