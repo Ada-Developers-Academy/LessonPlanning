@@ -7,13 +7,13 @@
 ####Lecture Outline
 1. Default Security Mechanisms in Rails
 2. Points of Vulnerability / Types of Attacks
-	-a. Session hijacking
-	-b. Sending params through URL
-	-c. Mass assignment
-	-d. CSRF
-	-e. Leaky routes
-	-f. SQL injection
-	-g. Cross site scripting (XSS)
+	a. Session hijacking<br>
+	b. Sending params through URL<br>
+	c. Mass assignment<br>
+	d. CSRF<br>
+	e. Leaky routes<br>
+	f. SQL injection<br>
+	g. Cross site scripting (XSS)<br>
 3. How Rails compares to other frameworks on security
 
 ####Evaluation
