@@ -1,5 +1,6 @@
 # Weeks 18 - 19: Refactoring Legacy Code
 
+####Lecture Outline
 1. Examples & Explanations
 2. Principles of Refactoring
 3. Bad Smells
@@ -12,6 +13,11 @@
 10. Dealing with Generalizations
 11. Big Refactorings
 12. Refactoring Tools
+13. Refactoring Tests
+14. Implementing SOLID
+
+####Project
+to do
 
 ###Resources
 
@@ -21,3 +27,6 @@
 [Refactoring slides by Martin Tschischauskas](http://www.slideshare.net/martintsch/refactoring-code-smell)<br>
 [Ruby Toolbox: Code Metrics](https://www.ruby-toolbox.com/categories/code_metrics)<br>
 [SimpleCov Code Coverage Analysis Tool by Christoph Olszowka](https://github.com/colszowka/simplecov)<br>
+[Practical Object Oriented Design in Ruby by Sandi Metz](http://www.poodr.info/)<br>
+[Theraputic Refactoring talk by Katrina Owen](http://kytrinyx.com/therapeutic-refactoring)<br>
+[Ruby Rogues podcast episode about refactoring with Katrina Owen](http://rubyrogues.com/069-rr-therapeutic-refactoring-with-katrina-owen/)<br>

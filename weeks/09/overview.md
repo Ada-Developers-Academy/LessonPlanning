@@ -1,6 +1,10 @@
 #Week 9: Ruby Review & Advanced Ruby
 
+
 ##Review:
+to do
+
+####Lecture Outline
 1. Data Types
 2. Conditionals
 3. Blocks
@@ -13,9 +17,15 @@
 10. Inheritance
 11. State
 
+####Project
+to do
+
 
 ##Advanced Ruby:
-1. the object model in depth
+to do
+
+####Lecture Outline
+1. The object model in depth
 2. Blocks, Procs, & Lambdas
 3. Dynamic Classes & Methods
 4. Missing Methods
@@ -27,8 +37,13 @@
 10. Regular Expressions
 11. Meta-programming
 
+####Project
+to do
+
 
 ###Resources:
 [Code School: Ruby 2](http://www.codeschool.com/courses/ruby-bits-part-2)<br>
 [Ruby Docs](http://ruby-doc.org/)<br>
 [Ruby Language Resources](http://www.ruby-lang.org/en/documentation/)<br>
+[Practical Object Oriented Design in Ruby by Sandi Metz](http://www.poodr.info/)<br>
+[MetaProgramming in Ruby book by Paulo Perretta](http://pragprog.com/book/ppmetr/metaprogramming-ruby)<br>
