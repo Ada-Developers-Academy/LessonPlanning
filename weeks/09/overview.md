@@ -2,7 +2,8 @@
 
 
 ##Review:
-to do
+description: to do
+
 
 ####Lecture Outline
 1. Data Types
@@ -17,12 +18,14 @@ to do
 10. Inheritance
 11. State
 
-####Project
+
+####Evaluation
 to do
 
 
 ##Advanced Ruby:
-to do
+description: to do
+
 
 ####Lecture Outline
 1. The object model in depth
@@ -37,7 +40,8 @@ to do
 10. Regular Expressions
 11. Meta-programming
 
-####Project
+
+####Evaluation
 to do
 
 

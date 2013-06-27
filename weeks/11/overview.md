@@ -4,6 +4,7 @@
 ##Security
  In order to develop secure web applications you have to keep up to date on all layers (back-end storage, the web server, and the web application itself) and know your enemies.
 
+
 ####Lecture Outline
 1. Default Security Mechanisms in Rails
 2. Points of Vulnerability / Types of Attacks
@@ -16,12 +17,14 @@
 	g. Cross site scripting (XSS)<br>
 3. How Rails compares to other frameworks on security
 
+
 ####Evaluation
 to do
 
 
 ##Multitenancy
 A principle in software architecture where a single instance of the software serves multiple client organizations.
+
 
 ####Lecture Outline
 1. Software as a Service
@@ -34,6 +37,7 @@ A principle in software architecture where a single instance of the software ser
 8. Data Partitioning / Scoping
 9. Model Partitioning
 10. Schema Partitioning
+
 
 ####Evaluation
 to do
