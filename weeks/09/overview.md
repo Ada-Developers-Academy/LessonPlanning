@@ -45,7 +45,7 @@ description: to do
 to do
 
 
-###Resources:
+####Resources:
 [Code School: Ruby 2](http://www.codeschool.com/courses/ruby-bits-part-2)<br>
 [Ruby Docs](http://ruby-doc.org/)<br>
 [Ruby Language Resources](http://www.ruby-lang.org/en/documentation/)<br>

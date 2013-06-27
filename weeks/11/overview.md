@@ -7,7 +7,7 @@
 
 ####Lecture Outline
 1. Default Security Mechanisms in Rails
-2. Points of Vulnerability / Types of Attacks
+2. Points of Vulnerability / Types of Attacks<br>
 	a. Session hijacking<br>
 	b. Sending params through URL<br>
 	c. Mass assignment<br>
@@ -43,7 +43,7 @@ A principle in software architecture where a single instance of the software ser
 to do
 
 
-###Resources:
+####Resources:
 [Multi-Tenancy in Rails Book by Ryan Bigg](https://leanpub.com/multi-tenancy-rails)<br>
 [Multitenancy with Rails Slidedeck by Paul Gallagher](http://www.slideshare.net/tardate/multitenancy-with-rails)<br>
 [Railscasts 388: Multitenancy with Scopes](http://railscasts.com/episodes/388-multitenancy-with-scopes)<br>

@@ -70,7 +70,7 @@ See [Ruby Toolbox: Code Metrics](https://www.ruby-toolbox.com/categories/code_me
 	** Alternatively, refactor a small open source app you find on Github
 
 
-###Resources
+####Resources
 
 [Wikipedia: Refactoring](http://en.wikipedia.org/wiki/Refactoring)<br>
 [Refactoring: Ruby Edition by Jay Fields, Shane Harvie, Martin Fowler, Kent Beck](http://www.amazon.com/Refactoring-Ruby-Edition-Jay-Fields/dp/0321603508/ref=sr_1_2?ie=UTF8&qid=1371745491&sr=8-2&keywords=refactoring+martin+fowler)<br>
