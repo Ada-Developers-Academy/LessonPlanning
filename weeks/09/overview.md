@@ -23,11 +23,11 @@ We will revisit programming fundamentals and the way they are handled in Ruby.
 
 
 ####Evaluation
-Write a program in Ruby that will help us create highly secure communications, by encrypting things in pig latin. Use the [pig latin spec](../lessons/pig_latin_spec.rb) Rspec file as your guide and measure of success for this exercise.
+Write a program in Ruby that will help us create highly secure communications, by encrypting things in pig latin! Use the [pig latin spec](../../lessons/pig_latin_spec.rb) Rspec file as your guide and measure of success for this exercise.
 
 
 ##Advanced Ruby:
-description: to do
+In this section, we will move beyond basic programming and explore Ruby-specific tools and techniques.
 
 
 ####Lecture Outline

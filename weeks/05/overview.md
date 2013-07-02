@@ -40,7 +40,7 @@
 
 
 ####Lesson: Write a Ruby program to make existing Rspec tests pass
-  - Use the [simon says spec](../lessons/simon_says_spec.rb)
+  - Use the [simon says spec](../../lessons/simon_says_spec.rb)
   - Run the test, watch it fail
   - Make the tests pass by writing a little Ruby program that does all actions specified
   - Watch the tests pass
