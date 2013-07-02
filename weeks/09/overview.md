@@ -2,25 +2,28 @@
 
 
 ##Review:
-description: to do
+We will revisit programming fundamentals and the way they are handled in Ruby.
 
 
 ####Lecture Outline
-1. Data Types
-2. Conditionals
-3. Blocks
-4. User Input
-5. Hashes & Arrays
+1. IRB
+2. Data Types
+3. Conditionals
+4. Blocks
+5. User Input
 6. Objects
 7. Classes
 8. Instances
 9. Class & Instance Methods
 10. Inheritance
 11. State
+12. Object Orientation
+13. Return Values
+14. SOLID
 
 
 ####Evaluation
-to do
+Write a program in Ruby that will help us create highly secure communications, by encrypting things in pig latin. Use the [pig latin spec](../lessons/pig_latin_spec.rb) Rspec file as your guide and measure of success for this exercise.
 
 
 ##Advanced Ruby:
