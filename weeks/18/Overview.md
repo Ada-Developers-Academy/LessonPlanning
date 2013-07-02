@@ -56,7 +56,7 @@ Code smells (aka anti-patterns) are things in code that could indicate an opport
 See [Ruby Toolbox: Code Metrics](https://www.ruby-toolbox.com/categories/code_metrics).
 
 
-####Projects
+####Lessons
 1. Project: revisit an app from a previous week and refactor it
 	- Create a list of smelly code instances found within it, and determine whether each one is a real problem
 	- Create a refactoring plan for this project, including its tests

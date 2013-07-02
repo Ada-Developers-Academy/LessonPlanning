@@ -33,7 +33,7 @@ Web applications are logical points of entry for bad guys looking to loot a comp
 3. How Rails compares to other frameworks on security
 
 
-####Lesson:
+####Lesson
 Install [Brakeman gem](https://github.com/presidentbeef/brakeman) in one of your existing Rails apps which has a database component. Use Brakeman to find potential security flaws, and fix those that are most serious.
 
 
@@ -72,7 +72,7 @@ Multitenancy is a principle in software architecture where a single instance of 
 
 
 
-####Evaluation
+####Lesson
 The class will together create a very basic forum app, with multi-tenancy in mind. Then, you will make it a multi-tenant app using [Railscasts 388: Multitenancy with Scopes](http://railscasts.com/episodes/388-multitenancy-with-scopes) as a guide.
 
 

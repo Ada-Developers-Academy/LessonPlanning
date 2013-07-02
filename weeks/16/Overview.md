@@ -8,7 +8,7 @@ Polling is a technique used by the vast majority of AJAX applications. The app r
 to do
 
 
-####Polling Project: Build a Blogging App With Comments
+####Polling Lesson: Build a Blogging App With Comments
 Follow along with this [Railscast](http://railscasts.com/episodes/229-polling-for-changes-revised?view=asciicast).
 
 
@@ -20,7 +20,7 @@ Server-sent events allow you to trigger events on the browser from a persistent 
 to do
 
 
-####Live Events Project: Build a Chat App
+####Live Events Lesson: Build a Chat App
 Follow along with this [Railscast](http://railscasts.com/episodes/401-actioncontroller-live?view=asciicast).
 
 
