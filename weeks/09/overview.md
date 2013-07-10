@@ -1,21 +1,37 @@
 #Week 9: Ruby Review & Advanced Ruby
 
+
 ##Review:
-1. Data Types
-2. Conditionals
-3. Blocks
-4. User Input
-5. Hashes & Arrays
+We will revisit programming fundamentals and the way they are handled in Ruby.
+
+
+####Lecture Outline
+1. IRB
+2. Data Types
+3. Conditionals
+4. Blocks
+5. User Input
 6. Objects
 7. Classes
 8. Instances
 9. Class & Instance Methods
 10. Inheritance
 11. State
+12. Object Orientation
+13. Return Values
+14. SOLID
+
+
+####Lesson
+Write a program in Ruby that will help us create highly secure communications, by encrypting things in pig latin! Use the [pig latin spec](../../lessons/pig_latin_spec.rb) Rspec file as your guide and measure of success for this exercise.
 
 
 ##Advanced Ruby:
-1. the object model in depth
+In this section, we will move beyond basic programming and explore Ruby-specific tools and techniques.
+
+
+####Lecture Outline
+1. The object model in depth
 2. Blocks, Procs, & Lambdas
 3. Dynamic Classes & Methods
 4. Missing Methods
@@ -28,7 +44,13 @@
 11. Meta-programming
 
 
-###Resources:
+####Lesson
+to do
+
+
+####Resources:
 [Code School: Ruby 2](http://www.codeschool.com/courses/ruby-bits-part-2)<br>
 [Ruby Docs](http://ruby-doc.org/)<br>
 [Ruby Language Resources](http://www.ruby-lang.org/en/documentation/)<br>
+[Practical Object Oriented Design in Ruby by Sandi Metz](http://www.poodr.info/)<br>
+[MetaProgramming in Ruby book by Paulo Perretta](http://pragprog.com/book/ppmetr/metaprogramming-ruby)<br>
