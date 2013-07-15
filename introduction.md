@@ -44,8 +44,8 @@ At ADA, we want to provide a learning environment that is comfortable, positive 
 
 ### Typical Day
 
-* **8am - 10am** - Instruction of new material
-* **10 - 10:30** - Daily assignments presented and explained 
+* **8:00 - 10:00** - Instruction of new material
+* **10:00 - 10:30** - Daily assignments presented and explained 
 * **10:30 - 10:45** - Break
 * **10:45 - 12:30** - Continued instruction
 * **12:30 - 1:30** - Lunch
