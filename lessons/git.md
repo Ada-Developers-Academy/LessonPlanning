@@ -1,11 +1,13 @@
 # Git
+
+## Overview
 Learning Git is almost as important as learning how to write code. 
 
 Git is a 'distributed version control system', which helps you track files and changes to code. Version control, in general, is a system to records changes to a set of files and forms a history of all of the changes. 
 
 Each set of tracked files is called a repository ('repo' for short). Because Git is _distributed_, it allows us to work from repos on remote servers, which is essential for team collaboration on projects. 
 
-# Lesson: Git Immersion
+## Lesson: Git Immersion
 Git Immersion is an online tutorial that walks through many important steps toward learning Git. We'll work through labs 01 through 21 in class today. 
 
 Hopefully you've already installed Git in your machine. You can check to make sure it's installed by typing `which git` into your terminal.
@@ -27,12 +29,12 @@ After completing labs 01 to 21 on Git Immersion, you will be able to:
 * Move and add files
 
 
-## Resources
+### Resources
 - [Git Immersion](http://gitimmersion.com/)
 - [Code School - Git Real](http://gitreal.codeschool.com/levels/1 "Code School - Git Real")
 - [Git Tutorials and Training | Atlassian](http://www.atlassian.com/git "Git Tutorials and Training | Atlassian")
 
-# Lesson: GitHub
+## Lesson: GitHub
 We've already becoming Git masters, but only on our own computers. This won't work if we're working on a team! Luckily, there's GitHub. 
 
 GitHub is a web service to host and manage git repositories. You can push up the code you've been working on for your team (or the world, in the case of open source) to see!
