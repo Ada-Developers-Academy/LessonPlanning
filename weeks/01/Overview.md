@@ -5,17 +5,14 @@ This week, we will focus on the tools you'll be using as a software developer an
 
 We will cover the following topics:
 
-- Bash
-- Git
-- Github
-- Ruby (History, IRB, Scripts, Structure)
-- Pair Programming
-
 ## [Bash](/lessons/bash.md)
+Using Terminal: Navigating and Modifying Files and Directories, Aliases
 
 ## [Git](/lessons/git.md)
+Source Control and Sharing Code
 
 ## [Beginning Ruby](/lessons/ruby-101.md)
+History, IRB, Scripts, Numbers, Strings, Variables, Interaction with `gets` and `puts`
 
 ## [Pair Programming](/lessons/pairing.md)
 
