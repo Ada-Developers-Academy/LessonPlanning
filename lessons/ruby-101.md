@@ -47,12 +47,21 @@ There's a whole lot more to programming than doing arithmetic! Let's walk throug
 
 One item of note is that Chris Pine uses single quotations for his strings: `'hello'` instead of `"hello"`. You'll see that this approach becomes problematic when you have apostrophes or quotes inside your string - all of them need to be escaped with a backslash. Instead of using the single quote method that Mr. Pine uses, we'll stick to double quotes. This will be helpful down the road when we learn string interpolation. 
 
-## Lesson: Variables
+## Lesson: Variables and Methods
 If you've done algebra, you're already familiar with variables (like a + b = c). It turns out that they're used A LOT in programming, too.
 
 So far, we haven't been able to hang on to or reuse any of the code we've written - once it's 'puts'ed, it's gone. Variables are a way to hold on to pieces of code so they can be used again.
 
-We'll walk through Chapter 4 and Chapter 5.1-5.2 in IRB. For 5.3-5.6, you'll need to create script files in your "ltp" folder. For 5.6, create two files: `full_name_greeting.rb` and `favorite_number.rb` and make sure they get up on GitHub.
+We'll walk through Chapter 4 with IRB. 
+
+Chapter 5 of Learn to Program introduces some common methods: `.to_s`, `.to_f` and `.to_i`. Walk through sections 5.1 and 5.2 in IRB; 5.3 introduces some new content that we'll stop and talk about.
+
+## Lesson: Gets and Chomp
+This is a turning point for us! So far, we haven't been able to interact with our programs. Most web programs are for humans to use, which means they require a LOT of interaction. 
+
+Section 5.3 of Learn to Program introduces the `gets` method. `gets` is the opposite of `puts` - it retrieves information from you, via your keyboard. 
+
+Complete sections 5.3-5.6. You'll need to create script files in your "ltp" folder. For 5.6, create two files: `full_name_greeting.rb` and `favorite_number.rb` and make sure they get up on GitHub.
 
 ## Mastery Topics  
 * Integers and Floats
