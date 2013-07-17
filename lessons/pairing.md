@@ -1,5 +1,7 @@
 # Pairing
-Pair programming is a common practice in agile software development. Pair programming is simply 2 people, sitting side-by-side working on the same piece of code on a single computer. Some common reasons for pair programming are:
+Pair programming is a common practice in agile software development. Pair programming is simply two people, sitting side-by-side, working on the same piece of code on a single computer. 
+
+Some common reasons for pair programming are:
 
 - Productivity is limited by our minds not our hands
 - One person can be editing code while the others mind is looking into future problems and strategic direction
@@ -18,4 +20,9 @@ Pair programming is a social practice and can present a few hurdles with coordin
 
 Many employers will require pair programming, even as much as 100% of the time, but typically it is optional. Students will be practicing pair programming for many of the projects during ADA with fellow students, instructors, mentors, and potential employers.
 
-TODO: Pair Programming Lecture Outline
+[Pair Programming Introductory Video](http://www.youtube.com/watch?feature=player_embedded&v=rG_U12uqRhE#at=557)
+
+## Pair Programming Lesson: Git Pair
+EdgeCase's Git Pair is a gem that allows you to properly attribute work done while pairing via changing the git author. Choose a pair, follow the instructions on [Edgecase Git Pair](https://github.com/edgecase/git-pair). 
+
+Bonus: GitHub user icons are based on your Gravatar from your email address. If you don't have a Gravatar, set one up for your email. Then, since Git Pair creates a new email address, configure your Gravatar for your pairing email address to be a picture of the both of you (use your computer's Photo Booth application to take the picture).
