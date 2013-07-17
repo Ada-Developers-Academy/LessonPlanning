@@ -14,7 +14,7 @@ Source Control and Sharing Code
 ## [Beginning Ruby](/lessons/ruby-101.md)
 History, IRB, Scripts, Numbers, Strings, Variables, Interaction with `gets` and `puts`
 
-## [Classes, Instances, and Methods](/lessons/classes.md)
+## [Object Orientation: Classes, Instances, and Methods](/lessons/classes.md)
 Creating instances of different types of classes, creating methods with and without parameters, return values
 
 ## [Pair Programming](/lessons/pairing.md)
