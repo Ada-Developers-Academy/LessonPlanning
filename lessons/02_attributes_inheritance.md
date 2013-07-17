@@ -32,8 +32,47 @@ To get lots of practice with the idea of getting and setting attributes, create 
 * Then, create `boxed_favorite_dessert.rb` with the equivalent `attr_accessor` attributes and push to GitHub.
 * You should verify that both your handmade and boxes desserts work by creating instances of your FavoriteDessert and setting and getting their attributes in IRB.
 
+## Classic Object Orientation Example: Animals
+In a more classic example of describing objects, we'll physical objects, `Snake` and `Dog`.
+
+    class Snake
+      def speak
+        "hiiiiissssss"
+      end
+      
+      def move
+        puts "slithering"
+      end
+      
+      def color
+        "green"
+      end
+    end
+    
+    class Dog
+      def speak
+        "Bark bark!"
+      end
+      
+      def move
+        puts "trotting"
+      end
+      
+      def color
+        "White"
+      end
+    end
+
+These two classes are pretty descriptive. If we create instances of these classes we can call the methods we've defined on them. Like so
+
+    fido = Dog.new
+    fido.speak => "Bark bark!"
+    fido.color => "White"
+    
+So in the very real aspect we can see how these classes mimic objects we assign `fido` to an instance of a `Dog`, we can then call methods on `fido`, methods can be imagined as verbs (`speak`) or attributes (`color`).
+
 ## Inheritance
-The similarities of real life objects continues with inheritance. Inheritance can almost be thought of as evolution. Let's take the last animal example and add inheritance by adding the `Animal` class
+The similarities of real life objects continues with inheritance. Let's take the last animal example and add inheritance by adding the `Animal` class.
 
     class Animal
       def move
@@ -87,98 +126,20 @@ Now we have an animal class, which is a little more broad of an idea than snakes
       end
     end
     
-We can see we add inheritance by `< ClassToInheriteFrom` after the class definition. This gives us the functionality you might expect. Now our `Dog` class inherits from `Animal`. Which gives the `Dog` all the methods of `Animal` like `reproduce`. Since all animals can do that, it makes sense to define that method on `Animal` 
+We can see we add inheritance by `< ClassToInheriteFrom` after the class definition. This gives us the functionality you might expect. Now our `Dog` class inherits from `Animal`. Which gives the `Dog` all the methods of `Animal` like `reproduce`. Since all animals can do that, it makes sense to define that method on `Animal`, not on `Snake` or `Dog`. 
 
     Animal.new.move => "moving"
     Dog.new.move    => "trotting"
-    Dog.new.digest  => "digesting"
+    Dog.new.digest  => "digesting"  
     
-- Class
--- Animal
+- Class  
+-- Animal  
 --- Dog
 
-### SOLID
-TODO: Add Solid
+## Lesson: Inheritance
+Create a file called `animal.rb` in your `classwork` folder which includes an Animal class and at least two different types of animals. Give Animal and the animal types some attributes and methods.  
 
-
-## RubyGems
-RubyGems are like little (or sometimes BIG) bundles of Ruby. They can add any and all code to your ruby toolkit. Ruby provides many classes such as Strings, Arrays, Integers, and Hashes, but imagine that you often find yourself using Addresses in Ruby, you could write a gem that encompasses the attributes of an address, bundle it in a gem and reuse it in different application, and distribute it to any one in the world via rubygems.org.
-
-## HTTP
-HTTP (Hypertext transfer protocol) is an application protocol for distributed, collaborative, hypermedia information systems. Or in understandable terms HTTP is how data is passed around the internet. Whenever a page, image, stylesheet, etc... loads on the internet, it's HTTP used to request the resource. HTTP is very robust and includes many advanced data communications, we're going to focus on the very basics right now. There are generally two parts to HTTP the client's request, and the servers response. Each type holds data in the "headers", data not seen by the user, and the "body" typically what the user provides, or consumes for requests and responses respectively.
-
-### Resources
-When we talk about resources, the easiest thing to imagine is a file (HTML, images, stylesheets, etc...), but a resource can also be a chunk of dynamically generated content. For instance when viewing Twitter, their servers are generating the data relevant to you, they are not saving an html file and returning the file.
-
-### Client Request
-In the most basic form a clients request will consist of a "method" and path to a resource. The most basic methods include:
-
-- GET (gets a resource)
-- POST (posts data to the server)
-- HEAD (similar to get, but does not request the 'body' of the response)
-
-Addition methods have been added and are commonly used in Rails:
-
-- PUT (updates a resource)
-- DELETE (deletes a resource)
-
-The path of a resource is similar to the paths of the files on a computer. So if you were to type `http://www.example.com/images/logo.png` in the url bar the data sent the the server (via HTTP) might look like:
-
-    GET /images/logo.png HTTP/1.1
-    Host: www.example.com
-
-The `HTTP/1.1` specifies which version of HTTP the request is using.
-
-### Server Response
-A server response for a basic HTML page might look like:
-
-    HTTP/1.1 200 OK
-    Date: Mon, 23 May 2005 22:38:34 GMT
-    Server: Apache/1.3.3.7 (Unix) (Red-Hat/Linux)
-    Last-Modified: Wed, 08 Jan 2003 23:11:55 GMT
-    Etag: "3f80f-1b6-3e1cb03b"
-    Content-Type: text/html; charset=UTF-8
-    Content-Length: 131
-    Connection: close
-
-    <html>
-    <head>
-      <title>An Example Page</title>
-    </head>
-    <body>
-      Hello World, this is a very simple HTML document.
-    </body>
-    </html>
-    
-The data above the `<html>` are the response headers. As you can see there are several things that might be useful when dealing with requests.
-
-- Date
-- Last Modified (the last time the requested content was changed)
-- Etag (a unique modifier to determine if the content is in the exact same state as a previous request)
-- Content-Type
-- Content-Length
-
-HTTP requests return a status code in the headers. These codes are standardized for HTTP, so each code has a specific meaning that is the same across any web application. A plain successful response will have the code of `200`, while a page not found is a `404` and an application error is a `500`. For a full list of HTTP codes see [HTTP Status Codes](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes/)
-The HTML is the "body" of the response. This is what would be rendered in the browser.
-
-TODO: HTTP lesson (curl)
-
-## JSON
-
-Most of us have heard of HTML. It is typically what a user of the internet is seeing, but data is often passed between servers and in the background of webpages using different datatypes. A very common type is JSON (JavaScript Object Notation). JSON is designed to be a very simple, text-based, human readable, data structure. As you can guess from the name it is derived from the JavaScript language. JSON is arranged into very simple key/value pairs.
-
-    {
-      firstname: "Ada",
-      lastname: "Lovelace",
-      age: 147,
-      address: {
-        street: "123 Fake St."
-        city: "Springfield",
-        state: "OR",
-        zip: 98112
-      }
-    }
-    
-As you can see this "Object" is describing a person and their address.
-
-TODO: JSON Lesson
+* Ensure that your types of animals can use the methods defined in Animal.
+* Overwrite some methods defined in Animal in your Dog class. What happens?
+* If Animal has an `attr_accessor :size`, but Dog does not, what happens when you try to set a dog's size?
+* What error do you get if you try to call a method that doesn't exist on an animal (i.e. `sammy_the_snake.bark`)?
