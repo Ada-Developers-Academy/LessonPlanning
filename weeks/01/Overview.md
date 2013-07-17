@@ -5,16 +5,16 @@ This week, we will focus on the tools you'll be using as a software developer an
 
 We will cover the following topics:
 
-## [Bash](/lessons/bash.md)
+## [Bash](/lessons/01_bash.md)
 Using Terminal: Navigating and Modifying Files and Directories, Aliases
 
-## [Git](/lessons/git.md)
+## [Git](/lessons/01_git.md)
 Source Control and Sharing Code
 
-## [Beginning Ruby](/lessons/ruby-101.md)
+## [Beginning Ruby](/lessons/01_ruby-101.md)
 History, IRB, Scripts, Numbers, Strings, Variables, Interaction with `gets` and `puts`
 
-## [Object Orientation: Classes, Instances, and Methods](/lessons/classes.md)
+## [Object Orientation: Classes, Instances, and Methods](/lessons/01_classes.md)
 Creating instances of different types of classes, creating methods with and without parameters, return values
 
 ## [Pair Programming](/lessons/pairing.md)
