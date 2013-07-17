@@ -143,3 +143,25 @@ Create a file called `animal.rb` in your `classwork` folder which includes an An
 * Overwrite some methods defined in Animal in your Dog class. What happens?
 * If Animal has an `attr_accessor :size`, but Dog does not, what happens when you try to set a dog's size?
 * What error do you get if you try to call a method that doesn't exist on an animal (i.e. `sammy_the_snake.bark`)?
+
+## Side Note: String Concatenation versus Interpolation
+While working through Learn to Program, you may have noticed that you're stringing a lot of strings together with `+`. This can be tedious and dangerous - if you've accidentally added a number to a string (`puts "hello" + 2`), you've encountered an error like:
+<pre><code>
+TypeError: can't convert Fixnum into String
+  from (irb):1:in `+'
+  from (irb):1
+  from /Users/elise/.rvm/rubies/ruby-1.9.3-p392/bin/irb:16:in `<main>'
+</code></pre>  	  
+
+Up until now, we've used string concatenation. We're adding strings together, and every piece that's added on *has* to be a string before it's added. It's perfectly valid to write `puts "hello" + 2.to_i`, but sometimes you can forget to add the `.to_i`.
+
+An alternative to this is String Interpolation. This allows us to put numbers, variables straight into our strings, without worrying about what type they are. 
+<pre><code>
+puts "hello#{2}" 
+</pre></code>
+<pre><code>
+a = 2
+puts "hello#{a}"
+</pre></code>
+
+In these examples, we're asking Ruby to stringify what's being interpolated, then add it into our string. Both are identical to `"hello" + 2.to_s`.
