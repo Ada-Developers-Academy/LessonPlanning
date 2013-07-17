@@ -13,7 +13,7 @@ Beginning Ruby uses `attr_accessor` to define a Class's attributes. `attr_access
   end
 </code></pre>  
   
-Is the equivalent to setting `attr_reader: name`. But `attr_reader: name` doesn't do us much good now unless we have the ability to also write (create) the attribute for our Person instance.
+Is the equivalent to setting `attr_reader :name`. But `attr_reader :name` doesn't do us much good now unless we have the ability to also write (create) the attribute for our Person instance.
 
 <pre><code>
   class Person
@@ -23,7 +23,7 @@ Is the equivalent to setting `attr_reader: name`. But `attr_reader: name` doesn'
   end
 </code></pre>  
 
-Is the equivalent to setting `attr_writer: name`. But, similarly to `attr_reader`, in this instance `attr_writer: name` isn't helpful on its own.
+Is the equivalent to setting `attr_writer :name`. But, similarly to `attr_reader`, in this instance `attr_writer :name` isn't helpful on its own.
 
 ## Lesson: Setting and Retrieving Attributes
 To get lots of practice with the idea of getting and setting attributes, create your own getter and setter methods (like the ones above) for instances of a class called FavoriteDessert. Include handmade getters and setters for attributes like flavor, color, size, or whatever your heart desires!  
