@@ -7,3 +7,6 @@ We will cover the following topics:
 
 ## [Object Orientation 2: Attributes and Inheritance](/lessons/02_attributes_inheritance.md)
 Setting and getting attributes with `attr_accessor`, class inheritance, plus a side note on string concatenation versus interpolation
+
+## [Flow Control and Iteration](/lessons/02_conditionals_and_loops.md)
+Conditionals: `if`, `else`, `elsif`, `unless`, `case`, Loops: `while`, `until`, introduction to arrays - looping using `for` and `.each`
