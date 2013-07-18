@@ -17,5 +17,8 @@ Creating a method, making a custom method for the String class
 ## [Arrays](/lessons/02_arrays.md)
 Creating arrays, adding to and removing from arrays, and iterating through arrays with `.each`
 
+## [Hashes](/lessons/02_hashes.md)
+Creating hashes, iterating through hashes, retrieving keys and values, deleting elements  
+
 ## Homework
 Work through Chapter 9 and Chapter 10 in Learn to Program.
