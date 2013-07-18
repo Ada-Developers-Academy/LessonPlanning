@@ -34,6 +34,7 @@ while guesses > 0
 end
 </code></pre>
 
+## Creating custom String Methods
 Wouldn't it be nice if we could call `"guess".pluralize`, like how we call `"guess".upcase`? What happens if you call `"guess".pluralize` instead of `pluralize_guess(guesses)`?
 
 What we need to do is add our own method to the String class. Since we're only addressing the pluralization of "guess," we'll write a `.pluralize_guess` method. In a larger application, we might want to address more than one word with our pluralize method.

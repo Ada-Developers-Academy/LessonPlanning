@@ -11,5 +11,11 @@ Setting and getting attributes with `attr_accessor`, class inheritance, plus a s
 ## [Flow Control and Iteration](/lessons/02_conditionals_and_loops.md)
 Conditionals: `if`, `else`, `elsif`, `unless`, Loops: `while`, `until`
 
-
 ## [Introduction to Methods](/lessons/02_methods.md)
+Creating a method, making a custom method for the String class
+
+## [Arrays](/lessons/02_arrays.md)
+Creating and iterating through Arrays
+
+## Homework
+Work through Chapter 9 and Chapter 10 in Learn to Program.
