@@ -9,4 +9,7 @@ We will cover the following topics:
 Setting and getting attributes with `attr_accessor`, class inheritance, plus a side note on string concatenation versus interpolation
 
 ## [Flow Control and Iteration](/lessons/02_conditionals_and_loops.md)
-Conditionals: `if`, `else`, `elsif`, `unless`, `case`, Loops: `while`, `until`, introduction to arrays - looping using `for` and `.each`
+Conditionals: `if`, `else`, `elsif`, `unless`, Loops: `while`, `until`
+
+
+## [Introduction to Methods](/lessons/02_methods.md)
