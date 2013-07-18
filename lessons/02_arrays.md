@@ -44,5 +44,24 @@ groceries.push "Old Bananas"
 groceries.pop
 </code></pre>
 
+## The `.each` Method
+Let's say we're planning a weekly breakfast. Each person in the class needs to bring breakfast once. We need to let everyone know what week they'll need to prepare for. We can use the `.each` method!
+
+<pre><code>
+ada_class = ["Sandi", "Paula", "Norah", "Rebecca", "Elise"]
+
+ada_class.sort!.each do |student|
+  puts "#{student} should bring breakfast for week #{ada_class.index(student) + 1}."
+end
+</code></pre>
+
+We're introducing a lot of new material here.  
+
+* `.each do |student|`: This probably looks wacky, but once you get the hang of it, it makes sense. The method is saying take the first item in the array, assign it to the variable student, and perform the below code on it. Then, keep going until all items in the array have had the following code applied. Then, return the original array. This is similar to the `while` loops we were looking at before.
+* `.sort!`: The `.sort` method does what you'd expect it to - return an alphabetically sorted array. However, it doesn't permanently sort the array. By adding the !, we make sure the array is permanently sorted.
+* `.index(student)`: This is showing us the location in the array. Remember, computers start counting with the number 0, not 1, so we have to add 1 to the index returned.
+
 ## Lesson: Class's Favorite Ice Cream
 Make a script that allows every user to enter in their favorite ice cream. Once someone types "done", The program should puts the flavors in alphabetical order, then puts the total number of flavors entered.
+
+

@@ -15,7 +15,7 @@ Conditionals: `if`, `else`, `elsif`, `unless`, Loops: `while`, `until`
 Creating a method, making a custom method for the String class
 
 ## [Arrays](/lessons/02_arrays.md)
-Creating and iterating through Arrays
+Creating arrays, adding to and removing from arrays, and iterating through arrays with `.each`
 
 ## Homework
 Work through Chapter 9 and Chapter 10 in Learn to Program.
