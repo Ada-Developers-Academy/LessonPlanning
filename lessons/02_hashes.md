@@ -29,3 +29,47 @@ favorite_flavors.each do |person, flavor|
 end
 </code></pre>
 
+## Deleting Elements
+It's easy to `.delete` Hash elements. `.delete` will delete the whole element, including the key and value.
+
+<pre><code>
+  favorite_flavors.delete("Elise") # Elise doesn't get any ice cream.
+</code></pre>  
+
+## Lesson: Hashes as a Data Structure
+As we move forward and look at data structures, it is important to *really* understand Hashes. Nested hashes will be the norm for the data you encounter. 
+
+For this lesson, let's build out all the people in your house in a file called "family.rb". Your household could contain multiple people and pets, with many different attributes. Here's my example house:
+
+<pre><code>
+  people = {
+    "bookis"           => {
+      "first_name"     => "bookis",
+      "last_name"      => "smuin",
+      "favorite_color" => "green",
+      "job"            => {
+        "title"        => "CEO",
+        "company"      => "Luna Sandals",
+        "url"          => "http://lunasandals.com"
+      }
+    },
+    "elise"            => {
+      "first_name"     => "elise",
+      "last_name"      => "worthy",
+      "favorite_color" => "pink",
+      "job"            => {
+        "title"        => "Teacher's Assistant",
+        "company"      => "Ada Developers' Academy",
+        "url"          => "http://adadevelopersacademy.com"
+       }  
+     }
+  }
+  puts people # should show the nested hash
+  puts people.count # should show the number of people in your house
+  people.each do |key,value|
+    puts "#{value["first_name"]}'s favorite color is #{value["favorite_color"]} and they work at #{value["job"]["company"]}."
+  end
+</code></pre>
+
+In this example, we don't need to use the hash element's key - only the value which contains the attributes of each person. Note that we can access many layers of the hash by using multiple square brackets. 
+
