@@ -23,5 +23,8 @@ Creating hashes, iterating through hashes, retrieving keys and values, deleting 
 ## [Building A Blog](/lessons/02_blog.md)  
 Our second rails application is a personal blog - you'll add to it piece by piece during the course
 
+## [Managing Time](/lessons/02_time.md)
+Introduction to Date, Time, DateTime, strftime
+
 ## Homework
 Work through Chapter 9 and Chapter 10 in Learn to Program.
