@@ -11,6 +11,9 @@ Using Terminal: Navigating and Modifying Files and Directories, Aliases
 ## [Git](/lessons/01_git.md)
 Source Control and Sharing Code
 
+## [Your First Application](/lessons/01_railsbridge.md)
+Your first Rails application, up and running on the web!
+
 ## [Beginning Ruby](/lessons/01_ruby-101.md)
 History, IRB, Scripts, Numbers, Strings, Variables, Interaction with `gets` and `puts`
 
