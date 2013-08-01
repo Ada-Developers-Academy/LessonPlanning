@@ -92,5 +92,5 @@ The Front end, server, and database can be setup in MANY configurations. Web fra
 
 
 ## Resources
-
+- [Let's Build a Sinatra App](http://matt.weppler.me/2013/07/19/lets-build-a-sinatra-app.html?utm_source=rubyweekly&utm_medium=email)
 - [http://sqlzoo.net/wiki/SELECT_basics](http://sqlzoo.net/wiki/SELECT_basics)
