@@ -1,5 +1,12 @@
 # Week Three
 
+## Apps, Apps Apps!
+
+This week, we'll build on our knowledge and go deeper into Ruby fundamentals. We'll do this from an application level, rather than in pieces, so you can start to understand how it all fits together.
+
+## [Variables](/lessons/03_variables.md)
+Scope and local, global, instance, and class variables
+
 ### JSON
 JSON (**J**ava**s**cript **O**bject **N**otation) is an open standard designed for human readable data interchange. A JSON object is very similar to a Ruby hash in many ways. JSON is a format that is commonly used to exchange data across networks.
 
