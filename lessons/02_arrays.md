@@ -40,7 +40,8 @@ Note that all items in your list are Strings. We could just as easily create an 
 `["a", 2, ["cat", "monkey"], ["bananas",["marbles", "rocket ships"]]]`
 </code></pre>
 
-In short: an Array is a collection of objects and is useful to store a group of objects to iterate through.
+## Arrays In-Depth
+An Array is a collection of objects and is useful to store a group of objects to iterate through.
 
 - [], symbolizes the collection
 - Objects are separated by ","'s.
