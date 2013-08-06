@@ -134,7 +134,7 @@ Through this lesson, we'll be introduced to:
 Can't get enough methods? Check out Chapter 6 of Learn to Program. It'll go over some common (and not-so-common) methods for some of our favorite types of objects: integers and strings. 
 
 ## Homework  
-* Work through Chapter 7 and Chapter 8 of Learn to Program on your own.
+* Work through Chapters 7, 8, 12, and 13 of Learn to Program on your own.
 * Read Chapter 2 (stuff you know) and Chapter 3 (stuff you know, plus some new ideas) in Beginning Ruby. 
 
 ### Attributions
