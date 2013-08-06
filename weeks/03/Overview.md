@@ -1,38 +1,4 @@
 # Week Three
-## Data Fundamentals
-When we refer to "data" in web development we are typically not referring to bytes of data specifically, but rather human readable data such as this paragraph. We will be focusing on Ruby and web related syntaxes for data types, but these concepts go deep into computer science and are often only slightly different for different languages, although Ruby makes changing interpreting and changing data types freely a breeze comparatively.
-
-- String : A short amount of text, typically less than 255 chars, useful for single words and reference
-- - Text : A variable amount of text, useful for page contents, descriptions, or any other free form text (like this tutorial)
-- Numeral
-- - Fixnum : A whole number including 0 and negatives
-- - Bignum : Fix number over 9^18
-- - Float  : A fractional number
-- - Decimal : A fractional number
-- Enumerables
-- - Array : A collection of other data type objects. [1,2,3, "Hello World"]
-- - Hash : A collection of other data type objects with "pointers". A pointer is an identifier that references a data type object. The pointer is commonly an integer ({0 => "Ada"}), but can be a string to be more descriptive ({"first_name" => "Ada"})
-- Boolean : true or false
-- Nil : This is the absence of a value, not to be confused with 0, false, or "".
-
-### Array
-An Array is a collection of objects. This data type is useful to store a group of objects to iterate through.
-
-`[1,2,3, "Hello World"]`
-
-- [], symbolizes the collection
-- Objects are seperated by ","'s.
-- Each value can be any object.
-
-### Hash
-  A Hash can also be called an associative array, map, symbol table, or dictionary depending on the context. Hashes are a collection of key, value pairs. Each possible key can only be used once in a single collection. Hashes can be modified by adding/removing keys and values or changing the value of an existing key.
-
-`{first_name: "Ada", last_name: "Lovelace"}`
-
-- {}, symbolizes the collection, everything inside of the curly braces is part of the collection
-- first_name, is the pointer or key
-- "Ada", is the value of the first_name key. The value of a Ruby hash can be any ruby object, including the ruby representations of the data types we've outlined so far.
-- "," seperate each key value pair
 
 ### JSON
 JSON (**J**ava**s**cript **O**bject **N**otation) is an open standard designed for human readable data interchange. A JSON object is very similar to a Ruby hash in many ways. JSON is a format that is commonly used to exchange data across networks.
