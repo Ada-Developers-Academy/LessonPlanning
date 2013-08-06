@@ -3,7 +3,9 @@
 ## Overview 
 Hashes are similar to arrays in that they are collections of information. Unlike arrays, though, hashes have a key and value. We wouldn't need to store our grocery list as a hash, but maybe we'd want to store everyone's favorite ice cream as a hash. This would allow us to know who liked what ice cream. 
 
-Unlike an array, hashes use curly brackets and may use an arrow `=>` to denote a key/value pair.
+Unlike an array, hashes use curly brackets and may use an arrow `=>` to denote a key/value pair. Each possible key can only be used once in a single collection. Hashes can be modified by adding/removing keys and values or changing the value of an existing key.
+
+A Hash can also be called an associative array, map, symbol table, or dictionary depending on the context.
 
 <pre><code>
 { "Elise" => "Coconut" }
@@ -18,6 +20,14 @@ favorite_flavors = { "Elise" => "Coconut", "Norah" => "Chocolate", "Paula" => "R
 
 favorite_flavors["Norah"]
 </code></pre>
+
+### Hashes In-Depth
+`{first_name: "Ada", last_name: "Lovelace"}`
+
+- {}, symbolizes the collection, everything inside of the curly braces is part of the collection
+- first_name, is the pointer or key
+- "Ada", is the value of the first_name key. The value of a Ruby hash can be any ruby object, including the ruby representations of the data types we've outlined so far.
+- "," separates each key value pair
 
 ## Iterating through Hashes
 We can use the `.each` method with hashes, too. With hashes, we have access to both the key and the value for each element of the hash. 
