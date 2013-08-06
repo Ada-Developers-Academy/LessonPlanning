@@ -11,14 +11,17 @@ Setting and getting attributes with `attr_accessor`, class inheritance, plus a s
 ## [Flow Control and Iteration](/lessons/02_conditionals_and_loops.md)
 Conditionals: `if`, `else`, `elsif`, `unless`, Loops: `while`, `until`
 
-## [Introduction to Methods](/lessons/02_methods.md)
-Creating a method, making a custom method for the String class
-
 ## [Arrays](/lessons/02_arrays.md)
 Creating arrays, adding to and removing from arrays, and iterating through arrays with `.each`
 
+## [Your First Ruby Application](/lessons/02_ruby_app.md)
+A Basic Text Analyzer, from Peter Cooper's Beginning Ruby
+
 ## [Hashes](/lessons/02_hashes.md)
 Creating hashes, iterating through hashes, retrieving keys and values, deleting elements, nested hashes
+
+## [Introduction to Methods](/lessons/02_methods.md)
+Creating a method, making a custom method for the String class
 
 ## [Building A Blog](/lessons/02_blog.md)  
 Our second rails application is a personal blog - you'll add to it piece by piece during the course
