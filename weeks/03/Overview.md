@@ -7,8 +7,11 @@ This week, we'll build on our knowledge and go deeper into Ruby fundamentals. We
 ## [Variables](/lessons/03_variables.md)
 Scope and local, global, instance, and class variables
 
-## [Inheritance](/lessons/03_inheritance.md)
-Inheritance and overriding methods
+## [Inheritance, Modules, and Mix-ins](/lessons/03_inheritance.md)
+Inheritance and overriding methods, Modules, Mix-ins, Enumerable, Comparable
+
+## [Text Adventure Game](/lessons/03_text_adventure.md)
+A paired project based on Beginning Ruby's Building a Dungeon
 
 ### JSON
 JSON (**J**ava**s**cript **O**bject **N**otation) is an open standard designed for human readable data interchange. A JSON object is very similar to a Ruby hash in many ways. JSON is a format that is commonly used to exchange data across networks.
