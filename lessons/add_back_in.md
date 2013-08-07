@@ -1,10 +1,6 @@
 ### SOLID
 TODO: Add Solid
 
-
-## RubyGems
-RubyGems are like little (or sometimes BIG) bundles of Ruby. They can add any and all code to your ruby toolkit. Ruby provides many classes such as Strings, Arrays, Integers, and Hashes, but imagine that you often find yourself using Addresses in Ruby, you could write a gem that encompasses the attributes of an address, bundle it in a gem and reuse it in different application, and distribute it to any one in the world via rubygems.org.
-
 ## HTTP
 HTTP (Hypertext transfer protocol) is an application protocol for distributed, collaborative, hypermedia information systems. Or in understandable terms HTTP is how data is passed around the internet. Whenever a page, image, stylesheet, etc... loads on the internet, it's HTTP used to request the resource. HTTP is very robust and includes many advanced data communications, we're going to focus on the very basics right now. There are generally two parts to HTTP the client's request, and the servers response. Each type holds data in the "headers", data not seen by the user, and the "body" typically what the user provides, or consumes for requests and responses respectively.
 

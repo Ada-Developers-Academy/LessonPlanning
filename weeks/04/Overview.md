@@ -1,5 +1,15 @@
 # Week Four
 
+##[RubyGems](/lessons/04_rubygems.md)
+How to locate and use libraries
+
+##[Building and Publishing Gems](/lessons/04_building_gems.md)
+TODO - simple gem, published on github and included in a project
+
+
+## Reading
+Chapter 7, Beginning Ruby
+
 ## MVC
 MVC (Model, View, Controller) is a common software architecture pattern that helps us separate many of the concerns of an application to avoid complexity. Following this pattern will prove very useful although it's tough to gets it's usefulness in the beginning. The pattern in this:
 
