@@ -28,3 +28,5 @@ Individual presentations on The Ruby Ecosystem, read Chapter 5 of Beginning Ruby
 ## Blog topic 
 Write about your experience pair programming, about either the text adventure game or the pair programming game
 
+## Extra Credit
+Start working through the Ruby Koans, which will help solidify your Ruby knowledge and give you more testing experience!
