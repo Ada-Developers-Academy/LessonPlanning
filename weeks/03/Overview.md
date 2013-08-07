@@ -10,6 +10,9 @@ Scope and local, global, instance, and class variables
 ## [Inheritance, Modules, and Mix-ins](/lessons/03_inheritance.md)
 Inheritance and overriding methods, Modules, Mix-ins, Enumerable, Comparable
 
+## [Error-driven-development and Debugging](/lessons/03_errors.md)
+TODO Using stack trace to identify broken code, using debugger (chapter 8)
+
 ## [Text Adventure Game](/lessons/03_text_adventure.md)
 A paired project based on Beginning Ruby's Building a Dungeon
 
