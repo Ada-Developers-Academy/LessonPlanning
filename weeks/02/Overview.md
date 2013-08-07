@@ -29,5 +29,11 @@ Our second rails application is a personal blog - you'll add to it piece by piec
 ## [Managing Time](/lessons/02_time.md)
 Introduction to Date, Time, DateTime, strftime
 
-## Homework
+## Reading / Homework
 Work through Chapter 9 and Chapter 10 in Learn to Program.
+
+## Spotlight
+Individual presentations about one interesting thing you learned
+
+## Blog topic
+Write about one bug you encountered and how you ended up fixing it

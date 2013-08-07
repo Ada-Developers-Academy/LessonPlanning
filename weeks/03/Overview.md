@@ -13,3 +13,18 @@ Inheritance and overriding methods, Modules, Mix-ins, Enumerable, Comparable
 ## [Text Adventure Game](/lessons/03_text_adventure.md)
 A paired project based on Beginning Ruby's Building a Dungeon
 
+## [Introduction to Unit Testing](/lessons/03_unit_tests.md)
+TODO
+
+## [Pair Programming Game](/lessons/03_pair_programming_game.md)
+TODO, Introduction to TDD and application of unit testing
+
+## Reading
+Chapter 6 and chapter 8 of Beginning Ruby
+
+## Spotlight
+Individual presentations on The Ruby Ecosystem, read Chapter 5 of Beginning Ruby
+
+## Blog topic 
+Write about your experience pair programming, about either the text adventure game or the pair programming game
+
