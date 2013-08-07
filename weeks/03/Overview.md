@@ -1,6 +1,6 @@
 # Week Three
 
-## Apps, Apps Apps!
+## Ruby Zen Mastery
 
 This week, we'll build on our knowledge and go deeper into Ruby fundamentals. We'll do this from an application level, rather than in pieces, so you can start to understand how it all fits together.
 
