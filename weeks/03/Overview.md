@@ -22,6 +22,9 @@ TODO
 ## [Pair Programming Game](/lessons/03_pair_programming_game.md)
 TODO, Introduction to TDD and application of unit testing
 
+## [Using CSV Data](/lessons/03_csv_data.md)
+Finding data within a csv, reading, writing
+
 ## Reading
 Chapter 6 and chapter 8 of Beginning Ruby
 
