@@ -15,3 +15,4 @@ Work in pairs through Chapter 12 of Beginning Ruby to build your own chat bot. T
 ##[Introduction to MVC](/lessons/04_mvc.md)
 
 ##[Beginning Rails](/lessons/04_rails.md)
+Reading: chapter 13 of Beginning Ruby, also should bring in a Rails book at this time.
