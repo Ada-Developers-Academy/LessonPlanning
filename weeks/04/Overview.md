@@ -9,6 +9,9 @@ TODO - simple gem, published on github and included in a project (this is covere
 ##[HTTP Servers](/lessons/04_http_servers.md)
 TODO - how to set up a generic WEBrick http server, provide responses. 
 
+## Project: Build-a-Bot
+Work in pairs through Chapter 12 of Beginning Ruby to build your own chat bot. TODO: project structure, scoring, bot on the web
+
 ## MVC
 MVC (Model, View, Controller) is a common software architecture pattern that helps us separate many of the concerns of an application to avoid complexity. Following this pattern will prove very useful although it's tough to gets it's usefulness in the beginning. The pattern in this:
 
