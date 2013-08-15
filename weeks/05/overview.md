@@ -7,7 +7,18 @@ Perhaps should replace with MiniTest...
 
 ##[Rspec](/lessons/05_rspec.md)
 
+##[Controller Test](/lessons/05_controller_tests.md)
+TODO
+
+##[Integration Tests](/lessons/05_integration_tests.md)
+TODO - Capybara
+
+##[BDD with Cucumber](/lessons/05_cucumber.md)
+TODO
+
 ##[More on Testing](/lessons/05_more_testing.md)
+TODO: this covers BDD vs TDD, Capybara, Factory Girl. Need to break these out and give specific examples.
+
 
 ####Resources
 
