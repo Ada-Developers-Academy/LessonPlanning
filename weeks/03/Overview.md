@@ -25,6 +25,9 @@ TODO, Introduction to TDD and application of unit testing
 ## [Using CSV Data](/lessons/03_csv_data.md)
 Finding data within a csv, reading, writing
 
+## [Introduction to SQL](/lessons/03_sql.md)
+Create a Ruby script that creates and writes to a sqlite database
+
 ## Reading
 Chapter 6 and chapter 8 of Beginning Ruby
 
