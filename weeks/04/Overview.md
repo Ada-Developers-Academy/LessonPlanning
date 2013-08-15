@@ -4,7 +4,7 @@
 How to locate and use libraries
 
 ##[Building and Publishing Gems](/lessons/04_building_gems.md)
-TODO - simple gem, published on github and included in a project
+TODO - simple gem, published on github and included in a project (this is covered in chapter 10 of Beginning Ruby)
 
 
 ## Reading
