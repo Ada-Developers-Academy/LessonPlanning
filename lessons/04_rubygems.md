@@ -1,4 +1,4 @@
-# RubyGems: Locating and Using Libraries Lesson
+# RubyGems: Locating and Using Libraries
 
 ## Overview
 
