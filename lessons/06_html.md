@@ -53,3 +53,6 @@ CSS, or Cascading Style Sheets, is a language used for the look and formatting o
 - Display (inline, block, inline-block)
 - Backgrounds (urls)
 - Resetting and Normalizing CSS
+
+### Resources
+- http://dpersing.github.io/svc/ (Devon's front-end class)
