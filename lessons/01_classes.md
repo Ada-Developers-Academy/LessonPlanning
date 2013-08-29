@@ -91,20 +91,6 @@ In this example, for every word we type, the computer is returning an object. In
 
 The computer handles things one word at a time.
 
-## Lesson: Personal Chef
-To get a better understanding of objects and their attributes and methods, we'll walk through section 4 of [JumpStart Lab's Ruby in 100 Minutes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#4.-objects,-attributes,-and-methods). 
-
-* This lesson combines a script file and IRB. You can load files in IRB by using the `load` command. You can then dynamically interact with the code you defined in the file. 
-
-* Make sure that `personal_chef.rb` is in a `classroom_projects` folder (which should be a git repo). Push your files to GitHub at the end of the lesson.
-
-From this exercise, you should now understand:  
-
-* Classes and instances
-* Methods
-* Method parameters
-* Return values
-
 ## Frequently-Used Objects
 In the last section, we said *everything is an object*. This is a confusing concept at first, but let's go over a couple of examples to highlight that point.
 
@@ -120,22 +106,9 @@ Just to go further down the rabbit hole, `"hello.methods"` is even an object, so
 
 We can use Array's predefined methods on `"hello".methods`, like `.count`. `"hello".methods.count` will give us the number of methods you can call on any string. How many are there?
 
-## Advanced Strings: Methods, Concatenation, and Interpolation
-Let's walk through JumpStart Lab's [Ruby in 100 Minutes' section on Strings](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#5.-strings). Stop when you get to Section 6: Symbols.
-
-Through this lesson, we'll be introduced to:  
-
-* Common methods: `.length`, `.delete()`, `.gsub(x,y)`, `.split()`
-* Extracting substrings with [x..y]
-* Working with Strings and Variables
-* Concatenation versus Interpolation
-
 ## Optional Lesson: More About Methods
 Can't get enough methods? Check out Chapter 6 of Learn to Program. It'll go over some common (and not-so-common) methods for some of our favorite types of objects: integers and strings. 
 
 ## Homework  
 * Work through Chapters 7, 8, 12, and 13 of Learn to Program on your own.
 * Read Chapter 2 (stuff you know) and Chapter 3 (stuff you know, plus some new ideas) in Beginning Ruby. 
-
-### Attributions
-Overview (modified), Personal Chef, and Advanced Strings are from JumpStart Lab's [Ruby in 100 Minutes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html).
