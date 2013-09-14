@@ -17,7 +17,7 @@ TODO Using stack trace to identify broken code, using debugger (chapter 8)
 A paired project based on Beginning Ruby's Building a Dungeon
 
 ## [Introduction to Unit Testing](/lessons/03_unit_tests.md)
-TODO
+TODO - Intro to Unit Testing is in Week 5, do we want an early short intro here?
 
 ## [Pair Programming Game](/lessons/03_pair_programming_game.md)
 TODO, Introduction to TDD and application of unit testing
@@ -34,7 +34,7 @@ Chapter 6 and chapter 8 of Beginning Ruby
 ## Spotlight
 Individual presentations on The Ruby Ecosystem, read Chapter 5 of Beginning Ruby
 
-## Blog topic 
+## Blog topic
 Write about your experience pair programming, about either the text adventure game or the pair programming game
 
 ## Extra Credit
