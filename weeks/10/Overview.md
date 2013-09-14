@@ -31,7 +31,7 @@ The `.gemspec` describes what's in the gem, the authors, versions, files, and ma
 * `gem.files` the files to be packaged with the gem
 
 See the [Gem Specifications](http://docs.rubygems.org/read/chapter/20) for more on `.gemspec` files
-    
+
 ### Naming a gem
 Naming a gem has a couple nuances. First make that the name of your gem is not already used, check [github](http://github.com) and [rubygems](http://rubygems.org). Next is the structure of the name. Notice in the example above we use an `_` rather a dash to seperate words, this is to remain consistent with Ruby conventions, a file defining a class named `AdaDev` would normally be named `ada_dev.rb`. This way when we require the files and install the gem, we will use the same name: `ada_dev`.
 
@@ -47,7 +47,7 @@ Lets add some quick code to our `ada_dev.rb` file
         end
       end
     end
-    
+
 Now we can build the gem
 
     gem build ada_dev.gemspec
@@ -57,7 +57,7 @@ This will create the bundled `.gem` file. To install the gem on our system run `
     irb -rubygems # -rubygems is not needed for Ruby > 1.9.3 as it's included
     require 'ada_dev'
     AdaDev::Student.count #=> 24
-    
+
 ### Semantic Versioning
 
 Semantic versioning consists of three numbers seperated by `.` like `0.0.1`, each number determines a level of significance described like `MAJOR.MINOR.PATCH`
@@ -73,15 +73,27 @@ So the appropriate number would be incremented by one on each release, with all 
 Now we have this awesome gem that tells us how many students are in ADA. Let's get it out into the wild! It is possible to release and install gems with a git repo:
 
     gem "ada_dev", :git => "git://github.com/Ada-Developer-Academy/ada_dev.git"
-    
+
 But generally rubygems.org is the goto source. To begin, you’ll need to create an account on [RubyGems.org](RubyGems.org). Releasing a gem to ruby gems is as easy as:
 
     gem push ada_dev-0.0.1.gem
-    
-Tada! Our gem is live. Anyone can now install it using rubygems with `gem install ada_dev`. 
+
+Tada! Our gem is live. Anyone can now install it using rubygems with `gem install ada_dev`.
 
 ### References
 
 - [RubyGems Guides](http://guides.rubygems.org)
 - [Gem Specification Reference](http://docs.rubygems.org/read/chapter/20)
 - [Creating a gem with Bunlder](http://railscasts.com/episodes/245-new-gem-with-bundler)
+
+##CS Fundamentals - Part 2
+
+###Lesson
+
+#### Data Structures
+
+Stacks
+
+#### Algorithms
+
+TODO

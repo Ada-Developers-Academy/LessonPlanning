@@ -18,3 +18,15 @@ The above exmaple relies on 6 seperate services for the process of a customer pu
 ## Project
 
 Build the ticketing service outlined above
+
+##CS Fundamentals - Part 5
+
+###Lesson
+
+#### Data Structures
+
+Singly Linked Lists
+
+#### Algorithms
+
+TODO

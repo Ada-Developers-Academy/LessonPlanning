@@ -1,4 +1,4 @@
-#Week 9: Ruby Review & Advanced Ruby
+#Week 9: Ruby Review & Advanced Ruby, Start with CS fundamentals
 
 
 ##Review:
@@ -54,3 +54,16 @@ to do
 [Ruby Language Resources](http://www.ruby-lang.org/en/documentation/)<br>
 [Practical Object Oriented Design in Ruby by Sandi Metz](http://www.poodr.info/)<br>
 [MetaProgramming in Ruby book by Paulo Perretta](http://pragprog.com/book/ppmetr/metaprogramming-ruby)<br>
+
+##CS Fundamentals - Part 1
+Starting from week 9 we will each week include some data structures & algorithm introductions. The idea is to present one (or more) data structures during a lession, as well as one sort or search algorithm. The algorithm should then be implemented in Ruby as exercise. The next day the implementations of the algorithm will be discussed and compared (for example run time).
+
+The first part of the CS Fundamentals consists of an intro into data structures, into algorithms in general, and into Big O Notation.
+
+###Lesson
+
+Intro into Data Structures: primitive data types, data structures, why does it matter?
+
+Intro into Algorithms: What kind of algorithms are there (sort, search, etc.), why does it matter?
+
+Intro into Big O Notation: How are algorithms evaluated? Why are some better than others? And again, why does it matter?

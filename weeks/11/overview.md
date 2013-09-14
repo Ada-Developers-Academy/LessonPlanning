@@ -87,3 +87,15 @@ The class will together create a very basic forum app, with multi-tenancy in min
 [Multitenancy with Rails Slidedeck by Paul Gallagher](http://www.slideshare.net/tardate/multitenancy-with-rails)<br>
 [Multitenancy in Rails blog post by David Lesches](http://davidlesches.com/blog/multitenancy-in-rails)<br>
 [Simple Multi-Tenancy blog post by Samuel Kadolph](http://samuel.kadolph.com/2010/12/simple-rails-multi-tenancy/)<br>
+
+##CS Fundamentals - Part 3
+
+###Lesson
+
+#### Data Structures
+
+Queues
+
+#### Algorithms
+
+TODO

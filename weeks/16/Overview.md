@@ -28,3 +28,15 @@ Follow along with this [Railscast](http://railscasts.com/episodes/401-actioncont
 [Is it Live?](http://tenderlovemaking.com/2012/07/30/is-it-live.html)<br>
 [Rails 4 Server Send Events with ActionController::Live and PostgreSQL](http://ngauthier.com/2013/02/rails-4-sse-notify-listen.html)<br>
 [Server-Sent Events in HTML 5](http://www.html5rocks.com/en/tutorials/eventsource/basics/)<br>
+
+##CS Fundamentals - Part 7 & Part 8
+
+###Lesson
+
+#### Data Structures
+
+Trees - Part 2
+
+#### Algorithms
+
+TODO
