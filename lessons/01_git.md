@@ -35,7 +35,7 @@ After completing labs 01 to 21 on Git Immersion, you will be able to:
 - [Git Tutorials and Training | Atlassian](http://www.atlassian.com/git "Git Tutorials and Training | Atlassian")
 
 ## Lesson: GitHub
-We've already becoming Git masters, but only on our own computers. This won't work if we're working on a team! Luckily, there's GitHub. 
+We're already becoming Git masters, but only on our own computers. This won't work if we're working on a team! Luckily, git is _distributed_ version control, so we can use it to push our local changes up to remote repos, and pull other people's contributions back down into our local repos.
 
 GitHub is a web service to host and manage git repositories. You can push up the code you've been working on for your team (or the world, in the case of open source) to see!
 
