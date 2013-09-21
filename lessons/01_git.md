@@ -3,7 +3,7 @@
 ## Overview
 Learning Git is almost as important as learning how to write code. 
 
-Git is a 'distributed version control system', which helps you track files and changes to code. Version control, in general, is a system to records changes to a set of files and forms a history of all of the changes. 
+Git is a 'distributed version control system', which helps you track files and changes to code. Version control, in general, is a system to record changes to a set of files and forms a history of all of the changes.
 
 Each set of tracked files is called a repository ('repo' for short). Because Git is _distributed_, it allows us to work from repos on remote servers, which is essential for team collaboration on projects. 
 
