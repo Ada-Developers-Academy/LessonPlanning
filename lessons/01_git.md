@@ -10,7 +10,7 @@ Each set of tracked files is called a repository ('repo' for short). Because Git
 ## Lesson: Git Immersion
 Git Immersion is an online tutorial that walks through many important steps toward learning Git. We'll work through labs 01 through 21 in class today. 
 
-Hopefully you've already installed Git in your machine. You can check to make sure it's installed by typing `which git` into your terminal.
+Hopefully you've already installed Git in your machine. You can check to make sure it's installed by typing `git` into your terminal; with no arguments, the `git` command will give you some help text with basic usage.
 
 After completing labs 01 to 21 on Git Immersion, you will be able to:  
 
