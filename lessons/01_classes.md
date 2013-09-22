@@ -1,7 +1,7 @@
 # Object Orientation: Classes, Instances, and Methods
 
 ## Overview
-Rubyists always say "in Ruby, everything is an object." From a beginner's perspective, that's quite confusing. Objects know information, called attributes, and they can do actions, called methods. A more useful statement than "everything is an object" could be "every class is an object, and every method returns an object."
+Rubyists always say "in Ruby, everything is an object." From a beginner's perspective, that's quite confusing. Objects know information, called attributes, and they can do actions, called methods. A more useful statement than "everything is an object" could be "everything has attributes and methods."
 
 For an example of an object, think about you as a human being. You have attributes like height, weight, and eye color. You have methods like "walk", "run", "wash dishes", and "daydream." Different kinds of objects have different attributes and methods. In the next sections we’ll look at a few specific kinds of objects common in Ruby.
 
