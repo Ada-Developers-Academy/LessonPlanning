@@ -136,9 +136,9 @@ Just like our Product class, which defined the abstract idea of a product, there
 
 Even classes have classes! Try `"hello.class.class"`!
 
-Commonly-used classes have pre-defined methods baked in - that's how Ruby from the inside out. To see what methods are available on any object, just call `.methods`. Try it with `"hello".methods`. 
+Commonly-used classes have pre-defined methods baked in - that's how Ruby works from the inside out. To see what methods are available on any object, just call `.methods`. Try it with `"hello".methods`.
 
-Just to go further down the rabbit hole, `"hello.methods"` is even an object, so you can call `.class` on it. Turns out that it is an Array (which is an object type we'll get to very soon). 
+Just to go further down the rabbit hole, the response of `"hello.methods"` is even an object, so you can call `.class` on it. Turns out that it is an Array (which is an object type we'll get to very soon).
 
 We can use Array's predefined methods on `"hello".methods`, like `.count`. `"hello".methods.count` will give us the number of methods you can call on any string. How many are there?
 
