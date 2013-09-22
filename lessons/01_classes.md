@@ -138,7 +138,7 @@ In the last section, we said *everything is an object*. This is a confusing conc
 
 We're already familiar with strings and integers. Strings and integers are objects, too! Try `"hello".class` in IRB. What do you get? 
 
-Just like our PersonalChef class, which defined the abstract idea of a personal chef, there's a String class that defines the abstract idea of string. The same is true for `2.class` (Fixnum) and `2.3.class` (Float). 
+Just like our Product class, which defined the abstract idea of a product, there's a String class that defines the abstract idea of string. The same is true for `2.class` (Fixnum) and `2.3.class` (Float). 
 
 Even classes have classes! Try `"hello.class.class"`!
 
