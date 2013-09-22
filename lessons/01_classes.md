@@ -40,48 +40,89 @@ Executing code is transactional, meaning that we give the computer code to execu
 
 Let's imagine that the computer is a person and we're asking them to process this request for us.
 
-    product = Product.new
-    product.name
-    product.name.reverse.upcase
-    product.destroy
-    
-Us: Hey Computer.  
+``` ruby
+product = Product.new
+product.name
+product.name.reverse.upcase
+product.destroy
+```
+Let's walk through that line-by-line:
 
-Compi: Yeah?
+    Us:    Hey Computer.
 
-Us: We need your help.
+    Compi: Yeah?
 
-Compi: Awesome, I love to help.
+    Us:    We need your help.
 
-Us: Great, pretty simple: let's start with `product = Product.new`
+    Compi: Awesome, I love to help.
 
-Compi: Oh that's easy. `Product.new` tells me you want a new instance of a product like `#<Product:0x000001009ea6c8>`. I'll go ahead and remember that as the variable `product` in case you wanna use it later.
-  
-Us: Thanks, I actually wanna use it now. How about `product.name`.
+    Us:    Great, pretty simple: let's start with `product = Product.new`
 
-Compi: Ok, so `product` returns that instance of `Product` - here you go: `#<Product:0x000001009ea6c8>`. 
-  
-Let's see, next you want `name`, ok, just to be clear, I am giving you the name of `#<Product:0x000001009ea6c8>`, not `Product`. 
-  
-Checking, checking. Okay, got it. It's `"Fleece Wolf Blanket"`. So there you go: `"Fleece Wolf Blanket"`.
-  
-Us: Perfect again! Next is gonna be a bit trickier, how about `product.name.reverse.upcase`?
+    Compi: Oh that's easy. `Product.new` tells me you want a new instance
+           of a product like `#<Product:0x000001009ea6c8>`. I'll go ahead
+           and remember that as the variable `product` in case you wanna
+           use it later.
 
-Compi: No problem. You gave me `product` so I'll give you `#<Product:0x000001009ea6c8>`.
+``` ruby
+product = Product.new
+# => <Product:0x000001009ea6c8>
+```
 
-Next is `name`. I'll give you `"Fleece Wolf Blanket"`. 
+    Us:    Thanks, I actually wanna use it now. How about `product.name`.
 
-Let's see, is there anything you wanted me to do with `"Fleece Wolf Blanket"`? 
+    Compi: Ok, so `product` returns that instance of `Product` - here
+           you go: `#<Product:0x000001009ea6c8>`.
 
-Oh right, `reverse`. That's `"teknalB floW eceelF"`. 
+           Let's see, next you want `name`, ok, just to be clear, I am
+           giving you the name of `#<Product:0x000001009ea6c8>`, not
+           the `Product` itself.
 
-And finally `upcase`! Since that's the last method, I'll go ahead and finally return `"TEKNALB FLOW ECEELF"` for you to do what you'd like with.
+           Checking, checking. Okay, got it. It's `"Fleece Wolf Blanket"`.
+           So there you go: `"Fleece Wolf Blanket"`.
 
-Us: Totally spot on. Nice work, Compi! Next I want to `product.destroy`.
+``` ruby
+product.name
+# => "Fleece Wolf Blanket"
+```
 
-Compi: Alright, so `product` again returns `#<Product:0x000001009ea6c8>`. Next is `destroy`. Oh I didn't realize you we're gonna destroy that nice product I spent so little time creating. But ok. 
+    Us:    Perfect again! Next is gonna be a bit trickier, how about
+           `product.name.reverse.upcase`?
 
-Just to let you know, I've executed your request, but there isn't much I can return, since it's gone and all. I'm just gonna give you `nil`. This is an object, but you can't do much with it. I wouldn't recommend trying to call any more methods on it.
+    Compi: No problem. You gave me `product` so I'll give you
+           `#<Product:0x000001009ea6c8>`.
+
+           Next is `name`. I'll give you `"Fleece Wolf Blanket"`.
+
+           Let's see, is there anything you wanted me to do with
+           `"Fleece Wolf Blanket"`?
+
+           Oh right, `reverse`. That's `"teknalB floW eceelF"`.
+
+           And finally `upcase`! Since that's the last method, I'll
+           go ahead and finally return `"TEKNALB FLOW ECEELF"` for
+           you to do what you'd like with.
+
+``` ruby
+product.name.reverse.upcase
+# => "TEKNALB FLOW ECEELF"
+```
+
+    Us:    Totally spot on. Nice work, Compi! Next I want to `product.destroy`.
+
+    Compi: Alright, so `product` again returns `#<Product:0x000001009ea6c8>`.
+
+           Next is `destroy`. Oh I didn't realize you we're gonna destroy
+           that nice product I spent so little time creating. But ok.
+
+           Just to let you know, I've executed your request, but there isn't
+           much I can return, since it's gone and all. I'm just gonna give
+           you `nil`. This is an Object, but you can't do much with it.
+           I wouldn't recommend trying to call any more methods on it.
+
+``` ruby
+product.destroy
+# => nil
+```
 
 In this example, for every word we type, the computer is returning an object. In the case of `product.name.reverse.upcase`, the computer is given four methods and is returning four objects. Even though we will only see the final result that `upcase` gives us, the computer is computing the first three methods all the same. So according the computer, this is what happened
 
