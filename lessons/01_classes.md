@@ -27,12 +27,6 @@ Here is a list of the Objects involved in this class:
 - Product.new.name => "Fleece Wolf Blanket" (an instance of the class String)
 - Product.new.weight_in_ounces => 12 (an instance of the class Integer)
 
-The things that are not Objects are 
-
-- `def`
-- `end`
-- The actual method name (i.e. `weight_in_ounces`)
-
 ### Return Value
 When we say that "every method returns an object", we bring up a very important concept. 
 
