@@ -8,7 +8,8 @@ For an example of an object, think about you as a human being. You have attribut
 A class is an abstract idea. It defines what all objects of that type can know and do. Think of the chair you’re sitting in. It’s not an abstract chair, it is an actual chair. We’d call this actual chair an instance - it is a realization of the idea chair. It has measurable attributes like height, color, weight. The class chair, on the other hand, has an abstract weight, color, and size – we can’t determine them ahead of time.
 
 We'll start with something that *could* be a physical object, like a Product. First let's define a couple things.
-<pre><code>
+
+``` ruby
 class Product
   def name
     "Fleece Wolf Blanket"
@@ -17,7 +18,7 @@ class Product
     12
   end
 end
-</code></pre>    
+```
 
 Here is a list of the Objects involved in this class:
 
