@@ -12,7 +12,7 @@ Git Immersion is an online tutorial that walks through many important steps towa
 
 Hopefully you've already installed Git in your machine. You can check to make sure it's installed by typing `git` into your terminal; with no arguments, the `git` command will give you some help text with basic usage.
 
-After completing labs 01 to 21 on Git Immersion, you will be able to:  
+After completing labs 01 to 21 on [Git Immersion][], you will be able to:
 
 * Set up global configs
 * Initialize a Git repo
@@ -30,7 +30,7 @@ After completing labs 01 to 21 on Git Immersion, you will be able to:
 
 
 ### Resources
-- [Git Immersion](http://gitimmersion.com/)
+- [Git Immersion][]
 - [Code School - Git Real](http://gitreal.codeschool.com/levels/1 "Code School - Git Real")
 - [Git Tutorials and Training | Atlassian](http://www.atlassian.com/git "Git Tutorials and Training | Atlassian")
 - [Git - Book](http://git-scm.com/book "Git - Book")
@@ -61,3 +61,5 @@ After going through these two tutorials, you'll be able to:
 - [GitHub: Fork a Repo](https://help.github.com/articles/fork-a-repo)
 - [Code School - Try Git](http://try.github.io "Code School - Try Git")
 - [Getting the Hang of GitHub | Nettuts+](http://net.tutsplus.com/tutorials/other/getting-the-hang-of-github/ "Getting the Hang of GitHub | Nettuts+")
+
+[Git Immersion]: http://gitimmersion.com/
