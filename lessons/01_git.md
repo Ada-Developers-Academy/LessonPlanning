@@ -5,7 +5,7 @@ Learning how to manage changes to your code is almost as important as learning h
 
 Git is a 'distributed version control system' (DVCS), which helps you track files and changes to code. Version control, in general, is a system to record changes to a set of files and forms a history of all of the changes. Git, specifically, is a modern DVCS with wide adoption -- especially in the Ruby and open-source communities -- and all the features and tools you will need to manage your code.
 
-Each set of tracked files is called a repository ('repo' for short). Because Git is _distributed_, it allows us to work from repos on remote servers, which is essential for team collaboration on projects. 
+Each set of tracked files is called a repository ('repo' for short). Because Git is _distributed_, it allows us to commit, branch, and merge locally, while being able to push changes to (and pull changes from) remote servers, which is essential for team collaboration on projects.
 
 ## Lesson: Git Immersion
 Git Immersion is an online tutorial that walks through many important steps toward learning Git. We'll work through labs 01 through 21 in class today. 
