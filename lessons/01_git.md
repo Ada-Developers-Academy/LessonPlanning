@@ -1,9 +1,9 @@
 # Git
 
 ## Overview
-Learning Git is almost as important as learning how to write code. 
+Learning how to manage changes to your code is almost as important as learning how to write code.
 
-Git is a 'distributed version control system', which helps you track files and changes to code. Version control, in general, is a system to record changes to a set of files and forms a history of all of the changes.
+Git is a 'distributed version control system' (DVCS), which helps you track files and changes to code. Version control, in general, is a system to record changes to a set of files and forms a history of all of the changes. Git, specifically, is a modern DVCS with wide adoption -- especially in the Ruby and open-source communities -- and all the features and tools you will need to manage your code.
 
 Each set of tracked files is called a repository ('repo' for short). Because Git is _distributed_, it allows us to work from repos on remote servers, which is essential for team collaboration on projects. 
 
