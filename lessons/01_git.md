@@ -1,18 +1,18 @@
 # Git
 
 ## Overview
-Learning Git is almost as important as learning how to write code. 
+Learning how to manage changes to your code is almost as important as learning how to write code.
 
-Git is a 'distributed version control system', which helps you track files and changes to code. Version control, in general, is a system to record changes to a set of files and forms a history of all of the changes.
+Git is a 'distributed version control system' (DVCS), which helps you track files and changes to code. Version control, in general, is a system to record changes to a set of files and forms a history of all of the changes. Git, specifically, is a modern DVCS with wide adoption -- especially in the Ruby and open-source communities -- and all the features and tools you will need to manage your code.
 
-Each set of tracked files is called a repository ('repo' for short). Because Git is _distributed_, it allows us to work from repos on remote servers, which is essential for team collaboration on projects. 
+Each set of tracked files is called a repository ('repo' for short). Because Git is _distributed_, it allows us to commit, branch, and merge locally, while being able to push changes to (and pull changes from) remote servers, which is essential for team collaboration on projects.
 
 ## Lesson: Git Immersion
 Git Immersion is an online tutorial that walks through many important steps toward learning Git. We'll work through labs 01 through 21 in class today. 
 
 Hopefully you've already installed Git in your machine. You can check to make sure it's installed by typing `git` into your terminal; with no arguments, the `git` command will give you some help text with basic usage.
 
-After completing labs 01 to 21 on Git Immersion, you will be able to:  
+After completing labs 01 to 21 on [Git Immersion][], you will be able to:
 
 * Set up global configs
 * Initialize a Git repo
@@ -30,7 +30,7 @@ After completing labs 01 to 21 on Git Immersion, you will be able to:
 
 
 ### Resources
-- [Git Immersion](http://gitimmersion.com/)
+- [Git Immersion][]
 - [Code School - Git Real](http://gitreal.codeschool.com/levels/1 "Code School - Git Real")
 - [Git Tutorials and Training | Atlassian](http://www.atlassian.com/git "Git Tutorials and Training | Atlassian")
 - [Git - Book](http://git-scm.com/book "Git - Book")
@@ -61,3 +61,5 @@ After going through these two tutorials, you'll be able to:
 - [GitHub: Fork a Repo](https://help.github.com/articles/fork-a-repo)
 - [Code School - Try Git](http://try.github.io "Code School - Try Git")
 - [Getting the Hang of GitHub | Nettuts+](http://net.tutsplus.com/tutorials/other/getting-the-hang-of-github/ "Getting the Hang of GitHub | Nettuts+")
+
+[Git Immersion]: http://gitimmersion.com/
