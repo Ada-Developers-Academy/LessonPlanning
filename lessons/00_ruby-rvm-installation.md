@@ -13,7 +13,7 @@ Start by installing the following software. Each of these are easy one-click ins
 We'll need to install the Command Line Tools from Xcode. 
 
 - Open Xcode
-- Go to `Xcode > Preferences` in the menu bar. *Protip™: `⌘,` is a shortcut for the preferences in most applications*
+- Go to `Xcode > Preferences` in the menu bar. *Protip™: On a Mac, `⌘,` (command+comma) is a shortcut for the preferences in most applications*
 - Click on the `Downloads` tab.
 - Locate `Command Line Tools` in the list of Components, and click install.
 
