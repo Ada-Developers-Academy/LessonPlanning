@@ -33,6 +33,8 @@ After completing labs 01 to 21 on Git Immersion, you will be able to:
 - [Git Immersion](http://gitimmersion.com/)
 - [Code School - Git Real](http://gitreal.codeschool.com/levels/1 "Code School - Git Real")
 - [Git Tutorials and Training | Atlassian](http://www.atlassian.com/git "Git Tutorials and Training | Atlassian")
+- [Git - Book](http://git-scm.com/book "Git - Book")
+- [Learn Git Basics interactively](http://pcottle.github.io/learnGitBranching "Learn Git Basics interactively")
 
 ## Lesson: GitHub
 We're already becoming Git masters, but only on our own computers. This won't work if we're working on a team! Luckily, git is _distributed_ version control, so we can use it to push our local changes up to remote repos, and pull other people's contributions back down into our local repos.
