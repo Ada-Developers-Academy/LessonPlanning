@@ -15,7 +15,7 @@ We've already worked with HTML a little bit with our Rails views, but up until n
 - fonts
 - graceful degradation and progressive enhancement
 
-## [RWD]
+## RWD
 - [What is responsive web design?](http://alistapart.com/article/responsive-web-design)
 - flexible grid
 - flexible images
