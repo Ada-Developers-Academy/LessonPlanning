@@ -26,13 +26,13 @@ The following assignments are due before the first day of class. ADA mentors wil
 
 * Read: [Learn Ruby the Hard Way](http://ruby.learncodethehardway.org)
 * Environment Setup: Read through [Ruby and RVM Installation](/lessons/00_ruby-rvm-installation.md). If you choose to do so, you may use the [Rails Installer](http://railsinstaller.org) to download and install the required development tools (however, you may encounter bugs).
-* Create an account and fill out your profile on [Github](Github.com) - [Github.com](http://Github.com) will be an important web service in our program.
+* Create an account and fill out your profile on [Github](http://www.github.com) will be an important web service in our program.
 * Complete the following online tutorials
     - [Try Ruby](http://tryruby.org)
     - [Git Immersion](http://gitimmersion.com)
 
 ## Classroom
-At ADA, we want to provide a learning environment that is comfortable, positive and packed with learning. To do this, each day will be structured loosely in the following way:
+At ADA, we want to provide a learning environment that is comfortable, positive and packed with learning. To do this, each day will be loosely structured in the following way:
 
 * **Instruction** - Instruction will be 1-4 hours, presented by an instructor or a mentor. This is how new topics will be introduced. Students may be asked to install software, follow along, and execute code during the lesson, so be prepared to listen, interact, and ask questions.
 * **Assignments** -  Each day students will be given daily assignments to complete. The assignments will be relevant to the day's topics. Each assignment must be completed and submitted to GitHub by the following morning. The day's assignments will range from 1-10 short problems and will vary in difficulty depending on the circumstances.
