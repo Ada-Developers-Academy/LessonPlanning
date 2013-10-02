@@ -1,18 +1,27 @@
 # Object Orientation: Classes, Instances, and Methods
 
 ## Overview
-Rubyists always say "in Ruby, everything is an object." From a beginner's
-perspective, that's quite confusing. Objects know information, called
-attributes, and they can do actions, called methods. A more useful statement
-than "everything is an object" could be "everything has attributes and methods."
 
-For an example of an object, think about you as a human being. You have
+Rubysits always say "in Ruby, everything is an object", but from a beginner's
+perspective, that's quite confusing. What they mean is that inside the Ruby
+Virtual Machine (VM) -- the ruby program that executes your code -- every
+concept it knows about is what we call an object; each object knows specific
+information about itself (attributes) and can do actions (methods). A more
+useful statement could be "in a Ruby Program, everything has both attributes
+and methods – even attributes and methods have attributes and methods."
+
+As a developer, you will interact with your Ruby *Programs* (full of objects,
+of course) using the Ruby *Language*. This is an important distinction, since
+one is a collection of concepts, and the other is the *language* used to
+describe and interact with the objects *using* those concepts.
+
+For an example of an *object*, think about you as a human being. You have
 attributes like height, weight, and eye color. You have methods like "walk",
 "run", "wash dishes", and "daydream." Different kinds of objects have different
 attributes and methods. In the next sections we’ll look at a few specific kinds
 of objects common in Ruby.
 
-A class is an abstract idea. It defines what all objects of that type can know
+A *class* is an abstract idea. It defines what all objects of that type can know
 and do. Think of the chair you’re sitting in. It’s not an abstract chair, it is
 an actual chair. We’d call this actual chair an instance - it is a realization
 of the idea chair. It has measurable attributes like height, color, weight. The
@@ -20,7 +29,7 @@ class chair, on the other hand, has an abstract weight, color, and size – we
 can’t determine them ahead of time.
 
 We'll start with something that *could* be a physical object, like a Product.
-First let's define a couple things.
+First let's define a couple things, in the Ruby *Language*:
 
 ``` ruby
 class Product
@@ -35,28 +44,40 @@ end
 
 Here is a list of the Objects involved in this class:
 
-- Product (Class)
-- Product.new (returns an instance of the product class)
-- Product.new.name => "Fleece Wolf Blanket" (an instance of the class String)
-- Product.new.weight_in_ounces => 12 (an instance of the class Integer)
+- `Product` (Class - an abstract concept)
+- `Product.new` (returns an instance of the product class. You'll learn
+  more about *instantiating* objects later.)
+- `"Fleece Wolf Blanket"` (a *string-literal*, an instance of the class String.
+  It is called literal because in the Ruby Language it *exactly* represents the
+  Ruby Object that it will create)
+- `12` (an *integer-literal* representation of the number twelve, an instance of
+  the class Integer)
 
-The things that are not Objects are 
+There are also a number of words in that block of code that *don't* directly
+represent an object on their own, but together help to build our little Ruby
+universe:
 
-- `def`
-- `end`
-- The actual method name (i.e. `weight_in_ounces`)
+ - `class` (a ruby *keyword* that opens up a `Class`)
+ - `def` (a ruby *keyword* that starts defining a method)
+ - `name` and `weight_in_ounces` (since these words immediately follow the
+    keyword `def`, they are method names; used elsewhere they might mean
+    something else -- in fact, we will use these same words later to *call* the
+    methods that are being defined.)
+ - `end` (a ruby *keyword* that finishes the current definition)
 
 ### Return Value
+
 When we say that "every method returns an object", we bring up a very important
 concept.
 
 Executing code is transactional, meaning that we give the computer code to
 execute, and the computer gives us a response. The response the computer gives
-is ALWAYS an object. Methods can be separated by `.`, which just tells the
-computer to execute the next word on the object that the last word returned.
+for a Ruby method is ALWAYS an object. Methods can be separated by `.`, which
+just tells the computer to execute the next word on the object that the last
+word returned, a concept known as "chaining".
 
 Let's imagine that the computer is a person and we're asking them to process
-this request for us.
+this request for us, one line at a time.
 
 ``` ruby
 product = Product.new
@@ -81,6 +102,8 @@ Let's walk through that line-by-line:
            and remember that as the variable `product` in case you wanna
            use it later.
 
+           You're done? OK. I'll show you a representation of that object.
+
 ``` ruby
 product = Product.new
 # => <Product:0x000001009ea6c8>
@@ -97,6 +120,9 @@ product = Product.new
 
            Checking, checking. Okay, got it. It's `"Fleece Wolf Blanket"`.
            So there you go: `"Fleece Wolf Blanket"`.
+
+           You're done? OK. I'll show you a representation of that string
+           object.
 
 ``` ruby
 product.name
@@ -120,6 +146,9 @@ product.name
            go ahead and finally return `"TEKNALB FLOW ECEELF"` for
            you to do what you'd like with.
 
+           You're done? OK. I'll show you a representation of that string
+           object.
+
 ``` ruby
 product.name.reverse.upcase
 # => "TEKNALB FLOW ECEELF"
@@ -136,6 +165,8 @@ product.name.reverse.upcase
            much I can return, since it's gone and all. I'm just gonna give
            you `nil`. This is an Object, but you can't do much with it.
            I wouldn't recommend trying to call any more methods on it.
+
+           You're done? OK. I'll show you a representation of the nil object.
 
 ``` ruby
 product.destroy
