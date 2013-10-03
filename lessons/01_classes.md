@@ -2,7 +2,7 @@
 
 ## Overview
 
-Rubysits always say "in Ruby, everything is an object", but from a beginner's
+Rubyists always say "in Ruby, everything is an object", but from a beginner's
 perspective, that's quite confusing. What they mean is that inside the Ruby
 Virtual Machine (VM) -- the ruby program that executes your code -- every
 concept it knows about is what we call an object; each object knows specific
