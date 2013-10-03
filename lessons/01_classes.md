@@ -45,8 +45,7 @@ end
 Here is a list of the Objects involved in this class:
 
 - `Product` (Class - an abstract concept)
-- `Product.new` (returns an instance of the product class. You'll learn
-  more about *instantiating* objects later.)
+- `Product.new` (returns a new instance of the product class.)
 - `"Fleece Wolf Blanket"` (a *string-literal*, an instance of the class String.
   It is called literal because in the Ruby Language it *exactly* represents the
   Ruby Object that it will create)
