@@ -29,7 +29,7 @@ Rails is much more complex than Sinatra, but very similar in it's application. R
     end
     
 
-**(5)** The controllers function is to assign any needed data to instance variables and send them to the view. Within the controller method we will use the `User` model to fetch data from the database and control any logic that need to happen to the data. We should not be putting logic (algorithms) in the controller.
+**(5)** The controller's function is to assign any needed data to instance variables and send them to the view. Within the controller method we will use the `User` model to fetch data from the database and control any logic that needs to happen to the data. We should not be putting logic (algorithms) in the controller.
 
 ### Models
 Models are ruby classes to represent any Object we'd like to represent in our web application, typically ruby models fetch data from a SQL database. Our `User` model:
