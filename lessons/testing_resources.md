@@ -17,3 +17,4 @@ testing.
 - [Non Determinism in Tests] (http://martinfowler.com/articles/nonDeterminism.html)
 - [Bot Style Tests] (https://code.google.com/p/selenium/wiki/BotStyleTests)
 - [Mocks Vs Stubs] (http://martinfowler.com/articles/mocksArentStubs.html)
+- [More on Testing] (http://martinfowler.com/tags/testing.html)
