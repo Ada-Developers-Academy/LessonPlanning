@@ -36,12 +36,14 @@ At ADA, we want to provide a learning environment that is comfortable, positive 
 
 * **Instruction** - Instruction will be 1-4 hours, presented by an instructor or a mentor. This is how new topics will be introduced. Students may be asked to install software, follow along, and execute code during the lesson, so be prepared to listen, interact, and ask questions.
 * **Assignments** -  Each day students will be given daily assignments to complete. The assignments will be relevant to the day's topics. Each assignment must be completed and submitted to GitHub by the following morning. The day's assignments will range from 1-10 short problems and will vary in difficulty depending on the circumstances.
+* **Presentations** - Students should expect to give "Lightning Talk" style presentations to small groups of other students as well as the the class as a whole.
 * **Projects** - Starting in week two, students will have to complete projects. Projects are larger assignments that will have a variety of issues to address and allow students to get creative by designing and implementing their own solutions to complex problems. Projects may last anywhere from three days to three weeks depending on complexity. Many projects will be in teams. Students will be expected to work with each other by collaborating on code via git and pair programming.  
 * **Project Time** - Students will be given time to work on projects in the classroom when applicable. During project time, students can ask questions and request the help of available instructors or mentors. 
 * **Speakers** - Mentors and guest speakers may occasionally be scheduled to lecture on a variety of topics, from technical coding to programming culture.
 * **Reading Assignments** - Reading assignments will be given on a weekly basis. Students are expected to read the material outside of class.
 * **Review** - Students will occasionally review their progress with the instructors. Instructors will typically schedule reviews every couple of weeks, but students are welcome to request a review at any time.
-
+* **Community Involvement** - Students will be expected to participate in local tech events - meetups, symposiums, conferences, hack nights - hosted by groups in the greater Seattle technical community. 
+ 
 ### Typical Day
 
 * **8:00 - 10:00** - Instruction of new material
