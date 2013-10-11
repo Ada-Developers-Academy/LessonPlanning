@@ -26,7 +26,7 @@ The following assignments are due before the first day of class. ADA mentors wil
 
 * Read: [Learn Ruby the Hard Way](http://ruby.learncodethehardway.org)
 * Environment Setup: Read through [Ruby and RVM Installation](/lessons/00_ruby-rvm-installation.md). If you choose to do so, you may use the [Rails Installer](http://railsinstaller.org) to download and install the required development tools (however, you may encounter bugs).
-* Create an account and fill out your profile on [Github](http://www.github.com) will be an important web service in our program.
+* Create an account and fill out your profile on [Github](http://www.github.com) as it will be an important web service in our program.
 * Complete the following online tutorials
     - [Try Ruby](http://tryruby.org)
     - [Git Immersion](http://gitimmersion.com)
