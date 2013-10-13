@@ -3,7 +3,7 @@
 Rails is much more complex than Sinatra, but very similar in it's application. Rails allows for a much easier framework to expand an application to many uses and scopes. The rails stack can be a very difficult thing to wrap your mind around. The most basic way to put it is that the application receives an HTTP request (when you type a url in the browser or click a link), the application takes the request and using several "layers", processes the request, and sends an HTTP response to the browser. The diagram below is a rough representation of how a request is handled. As we go through the next section refer to this diagram for a visual representation
 
 
-![Rails Stack Diagram](../../images/rails-stack.png)
+![Rails Stack Diagram](../images/rails-stack.png)
 
 ### The Browser
 **(1)** Web browsers send and receive HTTP requests to the internet. An HTTP request includes a URL (or web address), URL's contain a host ('example.com') and an optional path ('/users'). When the browser sends a request to the internet, the host is used to determine the server requested. This process lives outside of our rails app. Once our server is found our application receives the request, our application mainly cares about the path ("/users") and the request method ("GET"), we'll ignore the method for now. 
