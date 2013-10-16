@@ -1,4 +1,4 @@
-# Week One
+# Week Two
 
 ## Ruby In-Depth
 Last week, we covered the basics of the Ruby programming language. We'll build upon our knowledge of object-orientation, classes, and methods for our second week.
