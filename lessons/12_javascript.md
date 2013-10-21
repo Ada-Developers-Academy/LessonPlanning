@@ -21,9 +21,29 @@
 - JSON
 
 #### DOM
-- Dom structure/manipulation/traversal
-- document.getElementById/retreiving elements
-- console in browser
+##### Getting comfortable with your REPL.
+- Introduce to Chrome/Firefox DevTools
+##### Review of PreReqs — CSS Selectors and the Tree data structure
+##### Retrieving elements from DOM.
+- getElementById
+- getElementsByClassName
+- getElementsByTagName
+- querySelector/querySelectorAll
+##### Changing contents/appearances of elements
+- contents
+-- innerHTML
+- appearance
+-- style attribute
+-- className
+--- Why you should use className whenever possible
+##### Creating and adding/removing elements
+- createElement
+- appendChild
+- parentNode
+- removeChild
+- make sure to touch the dom as little as possible
+
+#### Other Browser Stuff
 - AJAX (ingesting services)
 - Push/Popstate
 - Cross-browser JS (JSONp)
