@@ -1,7 +1,7 @@
 # Week Twelve
 
 ## Beginning Javascript
-Javascript (JS) is an interpreted computer programming language, it's primary use is in web browsers to allow control of the browser, asynchronous communication, and to alter document content. JavaScript copies many names and naming conventions from [Java](http://en.wikipedia.org/wiki/Java_(programming_language)), but the two languages are otherwise unrelated and have very different semantics. Javascript has other uses and applications including use in desktop applications, PDF's, and server-side applications (i.e. [Node.js](http://nodejs.org)), but we will be focusing primarily on JS in the browser.
+Javascript (JS) is an interpreted computer programming language, its primary use is in web browsers to allow control of the browser, asynchronous communication, and to alter document content. JavaScript copies many names and naming conventions from [Java](http://en.wikipedia.org/wiki/Java_(programming_language)), but the two languages are otherwise unrelated and have very different semantics. Javascript has other uses and applications including use in desktop applications, PDF's, and server-side applications (i.e. [Node.js](http://nodejs.org)), but we will be focusing primarily on JS in the browser.
 
 ### DOM Manipulation
 To understand how we can utilize JS in the web browser we should understand the Document Object Model (DOM). The DOM is a way to model all of the elements within a browser page. The DOM tree represent all of the element inside of the DOM. Here is a diagram of how we can visualize the DOM, there is a lot missing here, but the basic concept is highlighted.
