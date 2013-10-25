@@ -54,5 +54,24 @@ CSS, or Cascading Style Sheets, is a language used for the look and formatting o
 - Backgrounds (urls)
 - Resetting and Normalizing CSS
 
+## Accessibility
+Accessibility intro related to the goals of accessiblity, HTML components, and style-related issues like color contrast and font size/weight
+
+### Intro to accessibility (a11y)
+- Introduction to concepts of no vision, no hearing, no mouse/touch, and their various overlaps
+- Introduction to WCAG 2.0 guidelines and various related W3C documentation
+- Summary of how good semantic HTML and general best practices are 80% of the battle
+
+### HTML element and ARIA concepts
+- Demo of VoiceOver screen reader reading HTML output on OSX and iOS
+- Introduction, examples, and VO demonstration of basic ARIA role attributes
+- Brief overview of ARIA attributes related to dynamic content that can be manipulated with javascript (live regions, alerts, etc.)
+
+### CSS-related a11y concepts
+- Testing color contrast and font sizes/weights for low-sighted and colorblind users
+- CSS for hiding/displaying content and how it affects screen readers
+
 ### Resources
 - http://dpersing.github.io/svc/ (Devon's front-end class)
+- http://html5doctor.com/
+- http://www.w3.org/TR/WCAG20/
